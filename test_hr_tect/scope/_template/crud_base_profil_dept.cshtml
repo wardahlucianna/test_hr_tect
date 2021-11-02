@@ -1,0 +1,25 @@
+﻿@{string path = System.Web.HttpContext.Current.Request.Path; }
+@using System.IO
+
+<div class="form form-horizontal" id="form_area_content">
+
+</div>
+
+<script>
+  path = '@{WriteLiteral(path);}';
+  token = '@Html.AntiForgeryToken()';
+</script>
+<script>
+    table_display();
+
+    function table_display() {
+        $("#form_area_content").load(path + "?f=table", function (response, status, xhr) {
+            if (status == "success") {
+                $("#form_area_content").append(token); //put antiforgerytoken here, after table body
+            }
+            else {
+                //notify(msg + xhr.status + " " + xhr.statusText, "danger");
+            }
+        });
+    }
+</script>

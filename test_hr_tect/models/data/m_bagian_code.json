@@ -1,0 +1,362 @@
+[
+	{
+		"nama": "AO"
+	},
+	{
+		"nama": "AA"
+	},
+	{
+		"nama": "HKL"
+	},
+	{
+		"nama": "MPD"
+	},
+	{
+		"nama": "PRO"
+	},
+	{
+		"nama": "HKM"
+	},
+	{
+		"nama": "SEKR"
+	},
+	{
+		"nama": "GCG"
+	},
+	{
+		"nama": "KPKU"
+	},
+	{
+		"nama": "MR"
+	},
+	{
+		"nama": "PRJK"
+	},
+	{
+		"nama": "PRW1"
+	},
+	{
+		"nama": "PRW2"
+	},
+	{
+		"nama": "PKR"
+	},
+	{
+		"nama": "JT"
+	},
+	{
+		"nama": "JU"
+	},
+	{
+		"nama": "PPNP"
+	},
+	{
+		"nama": "PROM"
+	},
+	{
+		"nama": "PPM"
+	},
+	{
+		"nama": "PEPRO"
+	},
+	{
+		"nama": "REN"
+	},
+	{
+		"nama": "DW1"
+	},
+	{
+		"nama": "DW2"
+	},
+	{
+		"nama": "PAJ"
+	},
+	{
+		"nama": "PEN"
+	},
+	{
+		"nama": "BEN"
+	},
+	{
+		"nama": "AKUN"
+	},
+	{
+		"nama": "WASANG"
+	},
+	{
+		"nama": "DALOP"
+	},
+	{
+		"nama": "SUNANG"
+	},
+	{
+		"nama": "PAP"
+	},
+	{
+		"nama": "AMON1A"
+	},
+	{
+		"nama": "AMON1B"
+	},
+	{
+		"nama": "HAR1"
+	},
+	{
+		"nama": "HAR2"
+	},
+	{
+		"nama": "HAR3"
+	},
+	{
+		"nama": "PAN1A"
+	},
+	{
+		"nama": "UMUM"
+	},
+	{
+		"nama": "UREA1A"
+	},
+	{
+		"nama": "UREA1B"
+	},
+	{
+		"nama": "UTIL1A"
+	},
+	{
+		"nama": "UTIL1B"
+	},
+	{
+		"nama": "ZA13"
+	},
+	{
+		"nama": "ZA14"
+	},
+	{
+		"nama": "ZA15"
+	},
+	{
+		"nama": "ZK"
+	},
+	{
+		"nama": "NPK1"
+	},
+	{
+		"nama": "NPK2"
+	},
+	{
+		"nama": "NPK2-4"
+	},
+	{
+		"nama": "NPK3"
+	},
+	{
+		"nama": "NPK4"
+	},
+	{
+		"nama": "PHO1"
+	},
+	{
+		"nama": "PHO2"
+	},
+	{
+		"nama": "PHO3"
+	},
+	{
+		"nama": "PHO4"
+	},
+	{
+		"nama": "Pan2"
+	},
+	{
+		"nama": "PF1"
+	},
+	{
+		"nama": "PAB2"
+	},
+	{
+		"nama": "SPP"
+	},
+	{
+		"nama": "UTIL2"
+	},
+	{
+		"nama": "ALF3"
+	},
+	{
+		"nama": "PA1"
+	},
+	{
+		"nama": "PA2"
+	},
+	{
+		"nama": "PA3"
+	},
+	{
+		"nama": "PA4"
+	},
+	{
+		"nama": "PA5"
+	},
+	{
+		"nama": "PA6"
+	},
+	{
+		"nama": "PA7"
+	},
+	{
+		"nama": "SA1"
+	},
+	{
+		"nama": "SA2"
+	},
+	{
+		"nama": "SA3"
+	},
+	{
+		"nama": "GYPS1"
+	},
+	{
+		"nama": "GYPS2"
+	},
+	{
+		"nama": "UBB"
+	},
+	{
+		"nama": "UTIL3A"
+	},
+	{
+		"nama": "UTIL3B"
+	},
+	{
+		"nama": "ZA2"
+	},
+	{
+		"nama": "PPE"
+	},
+	{
+		"nama": "K3"
+	},
+	{
+		"nama": "Ling"
+	},
+	{
+		"nama": "LING&amp;K3"
+	},
+	{
+		"nama": "PMK"
+	},
+	{
+		"nama": "ISTEK"
+	},
+	{
+		"nama": "RPK"
+	},
+	{
+		"nama": "RPPH"
+	},
+	{
+		"nama": "RPPHT"
+	},
+	{
+		"nama": "BHA"
+	},
+	{
+		"nama": "CGN"
+	},
+	{
+		"nama": "BANG"
+	},
+	{
+		"nama": "TI"
+	},
+	{
+		"nama": "PA"
+	},
+	{
+		"nama": "PAB"
+	},
+	{
+		"nama": "PAG"
+	},
+	{
+		"nama": "AB"
+	},
+	{
+		"nama": "CANFAB"
+	},
+	{
+		"nama": "FAB"
+	},
+	{
+		"nama": "M/F"
+	},
+	{
+		"nama": "PEL"
+	},
+	{
+		"nama": "DAANB"
+	},
+	{
+		"nama": "JL"
+	},
+	{
+		"nama": "JPP&amp;JL"
+	},
+	{
+		"nama": "DAANJ"
+	},
+	{
+		"nama": "DAANJ&amp;MV"
+	},
+	{
+		"nama": "PPBJ"
+	},
+	{
+		"nama": "PROBANG"
+	},
+	{
+		"nama": "BANGOR"
+	},
+	{
+		"nama": "BANGSIS"
+	},
+	{
+		"nama": "KPIJ"
+	},
+	{
+		"nama": "OPS"
+	},
+	{
+		"nama": "KM"
+	},
+	{
+		"nama": "DIKLAT"
+	},
+	{
+		"nama": "KARIR"
+	},
+	{
+		"nama": "BANGPER"
+	},
+	{
+		"nama": "BANGSDM"
+	},
+	{
+		"nama": "KWS"
+	},
+	{
+		"nama": "KWS&amp;SARKAP"
+	},
+	{
+		"nama": "SARKAP"
+	},
+	{
+		"nama": "TRANS"
+	},
+	{
+		"nama": "CSR"
+	},
+	{
+		"nama": "KAM"
+	}
+]

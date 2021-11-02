@@ -1,0 +1,314 @@
+[
+    {
+        "unitKerja": "251000",
+        "namaUnitKerja": "Dep Audit Operasi & Produksi",
+        "parentUnitKerja": "250000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "252000",
+        "namaUnitKerja": "Dep Audit Keuangan & Umum",
+        "parentUnitKerja": "250000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "261000",
+        "namaUnitKerja": "Dep Komunikasi Korporat",
+        "parentUnitKerja": "260000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "262000",
+        "namaUnitKerja": "Dep Hukum & Sekretariat",
+        "parentUnitKerja": "260000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "263000",
+        "namaUnitKerja": "Dep TKP & Manajemen Risiko",
+        "parentUnitKerja": "260000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "271000",
+        "namaUnitKerja": "Project Agrosolution",
+        "parentUnitKerja": "270000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "272000",
+        "namaUnitKerja": "Project Customer Centric Model",
+        "parentUnitKerja": "270000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "572000A",
+        "namaUnitKerja": "Dep Fabrikasi",
+        "parentUnitKerja": "570000A",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "601000",
+        "namaUnitKerja": "Ro Keselamatan & Kes. Kerja",
+        "parentUnitKerja": "600000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "671000",
+        "namaUnitKerja": "Dep Produksi I A",
+        "parentUnitKerja": "670000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "672000",
+        "namaUnitKerja": "Dep Produksi I B",
+        "parentUnitKerja": "670000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "681000",
+        "namaUnitKerja": "Dep Produksi II A",
+        "parentUnitKerja": "680000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "682000",
+        "namaUnitKerja": "Dep Produksi II B",
+        "parentUnitKerja": "680000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "684000",
+        "namaUnitKerja": "Dep Pengelolaan Mitra Produksi",
+        "parentUnitKerja": "680000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "691000",
+        "namaUnitKerja": "Dep Produksi III A",
+        "parentUnitKerja": "690000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "692000",
+        "namaUnitKerja": "Dep Produksi III B",
+        "parentUnitKerja": "690000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "C91000",
+        "namaUnitKerja": "Dep Penjualan Produk Pengembangan",
+        "parentUnitKerja": "C90000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "C92000",
+        "namaUnitKerja": "Dep Penjualan Produk Non Pupuk & Jasa",
+        "parentUnitKerja": "C90000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "C93000",
+        "namaUnitKerja": "Dep Penjualan Pupuk Korporasi",
+        "parentUnitKerja": "C90000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D51000",
+        "namaUnitKerja": "Dep Keuangan",
+        "parentUnitKerja": "D50000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D54000",
+        "namaUnitKerja": "Dep Akuntansi Biaya",
+        "parentUnitKerja": "D50000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D55000",
+        "namaUnitKerja": "Dep Pelaporan Keuangan & Manajemen",
+        "parentUnitKerja": "D50000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D63000",
+        "namaUnitKerja": "Dep Anggaran",
+        "parentUnitKerja": "D60000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D64000",
+        "namaUnitKerja": "Dep Portofolio Bisnis",
+        "parentUnitKerja": "D60000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D75000",
+        "namaUnitKerja": "Dep Pengembangan & Organisasi",
+        "parentUnitKerja": "D70000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D76000",
+        "namaUnitKerja": "Dep Remunerasi & Hubungan Industrial",
+        "parentUnitKerja": "D70000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D77000",
+        "namaUnitKerja": "Dep Inovasi & Sistem Manajemen",
+        "parentUnitKerja": "D70000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D81000",
+        "namaUnitKerja": "Dep Pelayanan Umum",
+        "parentUnitKerja": "D80000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D82000",
+        "namaUnitKerja": "Dep Keamanan",
+        "parentUnitKerja": "D80000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D83000",
+        "namaUnitKerja": "Dep Corporate Social Responsibility",
+        "parentUnitKerja": "D80000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D91000",
+        "namaUnitKerja": "Dep Pengadaan Barang",
+        "parentUnitKerja": "D90000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D92000",
+        "namaUnitKerja": "Dep Pengadaan Jasa",
+        "parentUnitKerja": "D90000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "D93000",
+        "namaUnitKerja": "Dep Perencanaan & Penerimaan Barang/Jasa",
+        "parentUnitKerja": "D90000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E11000",
+        "namaUnitKerja": "Dep Administrasi Pemasaran",
+        "parentUnitKerja": "E10000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E12000",
+        "namaUnitKerja": "Dep Administrasi & Penjualan",
+        "parentUnitKerja": "E10000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E13000",
+        "namaUnitKerja": "Dep Pengelolaan Mitra Produksi",
+        "parentUnitKerja": "E10000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E14000",
+        "namaUnitKerja": "Dep Pengelolaan Pelabuhan",
+        "parentUnitKerja": "E10000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E21000",
+        "namaUnitKerja": "Dep Inspeksi Teknik",
+        "parentUnitKerja": "E20000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E22000",
+        "namaUnitKerja": "Dep Kehandalan Pabrik & Interkoneksi Listrik",
+        "parentUnitKerja": "E20000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E31000",
+        "namaUnitKerja": "Dep Jasa Bengkel & Fabrikasi",
+        "parentUnitKerja": "E30000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E32000",
+        "namaUnitKerja": "Dep Pemeliharaan I",
+        "parentUnitKerja": "E30000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E33000",
+        "namaUnitKerja": "Dep Pemeliharaan II",
+        "parentUnitKerja": "E30000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E34000",
+        "namaUnitKerja": "Dep Pemeliharaan III",
+        "parentUnitKerja": "E30000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E35000",
+        "namaUnitKerja": "Dep Teknik & Bisnis",
+        "parentUnitKerja": "E30000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E36000",
+        "namaUnitKerja": "Dep Jasa Operasi & Pemeliharaan",
+        "parentUnitKerja": "E20000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E41000",
+        "namaUnitKerja": "Dep Lingkungan",
+        "parentUnitKerja": "E40000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E42000",
+        "namaUnitKerja": "Dep Keselamatan & Kesehatan Kerja",
+        "parentUnitKerja": "E40000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E43000",
+        "namaUnitKerja": "Dep Perencanaan Produksi & Pengelolaan Energi",
+        "parentUnitKerja": "E40000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E44000",
+        "namaUnitKerja": "Dep Proses & Pengendalian Kualitas",
+        "parentUnitKerja": "E40000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E51000",
+        "namaUnitKerja": "Dep Pengembangan Korporat",
+        "parentUnitKerja": "E50000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E52000",
+        "namaUnitKerja": "Dep Riset",
+        "parentUnitKerja": "E50000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    },
+    {
+        "unitKerja": "E53000",
+        "namaUnitKerja": "Dep Rancang Bangun",
+        "parentUnitKerja": "E50000",
+        "orgLevelName": "Departemen/Biro/Bidang"
+    }
+]

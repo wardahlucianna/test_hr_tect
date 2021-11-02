@@ -1,0 +1,350 @@
+﻿@using appglobal
+
+<!-- plugins:js -->
+<script src="~/main/library/app-assets/vendors/js/vendor.bundle.base.js"></script>
+<!-- endinject -->
+<!-- inject:js -->
+<script src="~/main/library/app-assets/js/off-canvas.js"></script>
+<script src="~/main/library/app-assets/js/hoverable-collapse.js"></script>
+<script src="~/main/library/app-assets/js/template.js"></script>
+<script src="~/main/library/app-assets/js/settings.js"></script>
+<script src="~/main/library/app-assets/js/todolist.js"></script>
+<!-- endinject -->
+<!-- plugin js for this page -->
+@*<script src="~/main/library/app-assets/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/main/library/app-assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>*@
+<!-- End plugin js for this page -->
+<!-- Custom js for this page-->
+<script src="~/main/library/app-assets/js/data-table.js"></script>
+<!-- End custom js for this page-->
+<!-- numeric -->
+<script src="~/main/library/app-assets/vendors/jquery-number/jquery.number.js" type="text/javascript"></script>
+
+<!--select2-->
+<link rel="stylesheet" href="~/main/library/app-assets/vendors/select2/select2.min.css" />
+<script src="~/main/library/app-assets/vendors/select2/select2.min.js" type="text/javascript"></script>
+
+<!--confrim-->
+<link rel="stylesheet" href="~/main/library/app-assets/vendors/jquery-confirm/css/jquery-confirm.css" />
+<script src="~/main/library/app-assets/vendors/jquery-confirm/js/jquery-confirm.js" type="text/javascript"></script>
+
+<!--datatable-->
+@*<link rel="stylesheet" href="~/main/library/app-assets/vendors/datatable/datatables.min.css" />*@
+<script src="~/main/library/app-assets/vendors/datatable/datatables.min.js" type="text/javascript"></script>
+
+<!-- summernote-->
+<link rel="stylesheet" href="~/main/library/app-assets/vendors/summernote-master/dist/summernote.css" />
+<script src="~/main/library/app-assets/vendors/summernote-master/dist/summernote.min.js" type="text/javascript"></script>
+
+<!-- extensions js -->
+<script src="~/main/library/app-assets/vendors/js/extensions/bootstrap-notify.min.js" type="text/javascript"></script>
+<script src="~/main/library/app-assets/vendors/js/extensions/jquery.form.js" type="text/javascript"></script>
+
+<!-- echart -->
+<script src="~/main/library/app-assets/vendors/echarts/echarts-en.min.js"></script>
+
+<!-- tooltips -->
+<script src="https://www.bootstrapdash.com/demo/victory/template/js/tooltips.js"></script>
+
+<link rel="stylesheet" href="@@sweetalert2/theme-bulma/bulma.css">
+
+<link href="//cdn.jsdelivr.net/npm/@@sweetalert2/theme-bulma/bulma.css" rel="stylesheet">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+
+<script>
+    return_url = "@{WriteLiteral(ViewData["ReturnUrl"]);}";
+</script>
+<script>
+    //using jquery-alert to display alert
+    function alert(title, content, icon = "info") {
+        type = "info";
+        if (icon == "danger") {
+            icon = "fa fa-exclamation-triangle";
+            type = "red";
+        }
+        else if (icon == "info") {
+            icon = "fa fa-info-circle";
+            type = "blue";
+        }
+        else if (icon == "warning") {
+            icon = "fa fa-warning";
+            type = "orange";
+        }
+        $.confirm({
+            title: title,
+            content: content,
+            icon: icon,
+            theme: 'modern',
+            closeIcon: true,
+            animation: 'scale',
+            type: type,
+            buttons: {
+                ok: {
+                    text: 'Ok',
+                    btnClass: 'btn-blue',
+                    action: function () {
+
+                    }
+                }
+            }
+        });
+    }
+
+    //using jquery-alert to display confirm
+    function confirm(title, content, ok_action, id = null, icon = "fa fa-question-circle", delay = 5000)
+    {
+      $.confirm({
+        title: title,
+        content: content,
+        icon: icon,
+        theme: 'modern',
+        autoClose: 'cancelAction|' + delay,
+        escapeKey: 'cancelAction',
+        type: "red",
+        buttons: {
+          confirm: {
+            btnClass: 'btn-red',
+            text: 'Ya',
+            action: function ()
+            {
+              ok_action(id);
+            }
+          },
+          cancelAction: {
+            text: 'Tidak',
+            action: function ()
+            {
+            }
+          }
+        }
+      });
+    }
+
+    //display non obstrusive notification
+    function notify(message, type = "secondary", icon = "fa fa-info-circle", delay = 2000) {
+        title = "Info: ";
+        $.notify({
+            // options
+            title: title,
+            icon: icon,
+            message: message
+        },
+        {
+            // settings
+            type: type,
+            delay: delay,
+            placement: {
+                from: "top",
+                align: "right"
+            },
+        });
+    }
+
+    //get antoforgery token native to .netcore
+    function antiforgerytoken() {
+        return $("[name=__RequestVerificationToken]").val();
+    }
+
+    //simple ajax with json data wrapper
+    function ajax_json_request(request_url, request_parameter, success_function = "", fail_function = "") {
+        $.ajax({
+            url: request_url,
+            type: 'post',
+            dataType: 'json',
+            data: {
+                __RequestVerificationToken: antiforgerytoken(),
+                request_parameter,
+            }
+        })
+            .done(function (result) {
+                if (result.status) {
+                    if (request_url == "login") {
+                        success_function();
+                    }
+                    else {
+                        success_function(result);
+                    }
+                }
+                else {
+                    fail_function(result);
+                }
+            })
+            .fail(function (result) {
+                fail_function(result);
+            });
+    }
+
+    //redirect document location
+    function url_redirect(location = "/") {
+        location = location == "/" ? (return_url == "" ? "/" : return_url) : location;
+        document.location = location;
+    }
+
+    //format json for developer logging
+    function json_log(orginal_json) {
+        $("#logger").html(message).jsonFormatter();
+        return $("#logger").html();
+    }
+
+    //display alert for failed ajax request
+    function failed_ajax_request(result) {
+        alert("Request Failed", result.message, "danger");
+    }
+
+    //function for logout
+    function logout() {
+        url_redirect("login");
+    }
+
+    function profil_user() {
+        var feature_group_url = "akses";
+        var feature_url = "profil_user";
+        history.pushState(null, null, "/" + feature_group_url + "-" + feature_url);
+        $("#content_body").load("scope/" + feature_group_url + "/" + feature_url + "?f=base", function (data) {
+            $("#form_area_content").load("scope/akses/profil_user?f=table", function (response, status, xhr) {
+                if (status == "success") {
+                    $("#form_area_content").append(token); //put antiforgerytoken here, after table body
+                }
+                else {
+                    //alert("Request Failed", msg + xhr.status + " " + xhr.statusText, "danger");
+                }
+            });
+        });
+    }
+
+    //load the content with ajax
+    function load_content(feature_group_url, feature_url) {
+        history.pushState(null, null, "/" + feature_group_url + "-" + feature_url);
+        $("#content_body").load("scope/" + feature_group_url + "/" + feature_url + "?f=base", function (data) {
+            //notify("Loaded " + feature_group_url + "/" + feature_url);
+        });
+    }
+
+    //validate all input with cannot-null class on a form
+    function validate_form(form_id, message = "cannot null!") {
+        invalid = 0; //reset blank counter
+        $("#" + form_id + " .error").remove(); //remove all invalid tags
+        $("#" + form_id).find(".cannot-null").each(function () {
+            cek_form = $(this)[0]['form'].id;
+            if (cek_form == form_id) {
+                if ($(this).val().trim() == "" || $(this).val() == null) {
+                    notify($(this).attr("placeholder") + " " + message, "danger"); //display invalid input
+                    $(this).addClass("is-invalid"); //make input with danger border
+                    var target = $(this).data("target");
+                    if (typeof ($(this).data("target")) === "undefined") {
+                        $(this).parent().append("<label id='cname-error' class='error mt-2 text-danger' for='cname'>" + message + "</label>"); //add invalid tags
+                    }
+                    else {
+                        $(this).parent().parent().append("<label id='cname-error' class='error mt-2 text-danger' for='cname'>" + message + "</label>"); //add invalid tags
+                    }
+                    invalid++;
+                }
+                else {
+                    $(this).removeClass("is-invalid"); //remove danger border
+
+                    if ($(this).attr('type') == "email") {
+                        var regex = /^([a-zA-Z0-9_.+-])+\@@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                        status_email = regex.test($(this).val());
+                        if (!status_email) {
+                            $(this).parent().append("<label id='cname-error' class='error mt-2 text-danger' for='cname'>Wrong Email</label>"); //add invalid tags
+                            notify($(this).attr("placeholder") + " Wrong", "danger"); //display invalid input
+                            invalid++;
+                        }
+                    }
+                    else if ($(this).attr('type') == "url") {
+                        status_url = isUrlValid($(this).val());
+                        console.log(status_url);
+                        if (!status_url) {
+                            $(this).parent().append("<label id='cname-error' class='error mt-2 text-danger' for='cname'>Wrong url</label>"); //add invalid tags
+                            notify($(this).attr("placeholder") + " Wrong", "danger"); //display invalid input
+                            invalid++;
+                        }
+                    }
+                    
+                }
+            }
+        });
+        console.log("invalid: " + invalid);
+        return invalid;
+    }
+
+    function isUrlValid(url) {
+        return /^(https?|s?ftp):\/\/(((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:)*@@)?(((\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5])\.(\d|[1-9]\d|1\d\d|2[0-4]\d|25[0-5]))|((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?)(:\d*)?)(\/((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@@)+(\/(([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@@)*)*)?)?(\?((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@@)|[\uE000-\uF8FF]|\/|\?)*)?(#((([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(%[\da-f]{2})|[!\$&'\(\)\*\+,;=]|:|@@)|\/|\?)*)?$/i.test(url);
+    }
+
+    $('#main-menu-navigation').on('click', '.menu-item', function () {
+        $('#main-menu-navigation li a').removeClass('active');
+        $(this).addClass('active');
+
+        if ($(this).data("feature_group_url") == "dashboard") {
+            feature_group_url = $(this).data("feature_group_url");
+            feature_url = $(this).data("feature_url");
+            load_content(feature_group_url, feature_url);
+            history.pushState(null, null, "/" + feature_group_url + "-" + feature_url);
+        }
+        else {
+            feature_group_url = $(this).parent().data("feature_group_url");
+            feature_url = $(this).parent().data("feature_url");
+            load_content(feature_group_url, feature_url);
+            history.pushState(null, null, "/" + feature_group_url + "-" + feature_url);
+        }
+        return false;
+    })
+
+    @{
+        string[] route_values = { "", "" };
+        var route_value = ViewData["route_value"].ToString();
+        AppGlobal.console_log("route_value", ViewData["route_value"].ToString());
+
+        if (ViewData["route_value"].ToString() != "" && ViewData["route_value"].ToString() != "")
+        {
+            route_values = ViewData["route_value"].ToString().Split("-");
+            WriteLiteral(@"scope = '" + route_values[0] + @"';feature = '" + route_values[1] + @"';load_content(scope, feature);"
+       );
+
+        }
+    }
+</script>
+
+<script>
+    //number
+    function just_number(evt) {
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        var regex = /[0-9]|\./;
+        if (!regex.test(key)) {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+
+    jQuery.fn.ForceNumericOnly =
+        function () {
+            return this.each(function () {
+                $(this).keydown(function (e) {
+                    var key = e.charCode || e.keyCode || 0;
+                    // allow backspace, tab, delete, enter, arrows, numbers and keypad numbers ONLY
+                    // home, end, period, and numpad decimal
+                    return (
+                        key == 8 ||
+                        key == 9 ||
+                        key == 13 ||
+                        key == 46 ||
+                        key == 110 ||
+                        key == 190 ||
+                        (key >= 35 && key <= 40) ||
+                        (key >= 48 && key <= 57) ||
+                        (key >= 96 && key <= 105));
+                });
+            });
+        };
+</script>
+
+<script>
+    function get_spasi_filter(value) {
+        var new_value = value.replace(/\ /g, '___');
+        return new_value;
+    }
+</script>

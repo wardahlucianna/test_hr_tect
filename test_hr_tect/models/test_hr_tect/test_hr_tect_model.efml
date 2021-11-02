@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efcore namespace="appglobal.models" p1:name="test_hr_tect_model" p1:Guid="6df7b870-114b-421d-8d5f-5a0d112bc04a" xmlns:p1="http://devart.com/schemas/EntityDeveloper/1.0">
+  <class name="m_feature" entity-set="m_feature" table="m_feature" p1:Guid="381df0ca-b7e2-413c-bda1-40231ca6c580">
+    <id name="m_feature_id" type="Int32" value-generated="OnAdd" p1:ValidateRequired="true" p1:Guid="7c271210-26cf-4762-acf9-7748c71e5692">
+      <column name="" />
+    </id>
+    <property name="m_feature_group_id" type="Int32" p1:ValidateRequired="true" p1:Guid="dd5d5e4e-1124-49a0-b8b5-904da46233d5">
+      <column name="" not-null="False" />
+    </property>
+    <property name="feature_name" type="String" p1:ValidateMaxLength="100" p1:ValidateRequired="true" p1:Guid="8661fa89-f500-4881-bee4-4b9e5c93c2dc">
+      <column name="" length="100" />
+    </property>
+    <property name="feature_sequence" type="Int32" p1:ValidateRequired="true" p1:Guid="d762ea53-2875-46b1-afbc-1c32cbe06326">
+      <column name="" />
+    </property>
+    <property name="feature_url" type="String" p1:ValidateMaxLength="100" p1:ValidateRequired="true" p1:Guid="289b8828-2867-4a69-a187-26b466516749">
+      <column name="" length="255" />
+    </property>
+    <property name="feature_icon" type="String" p1:ValidateMaxLength="10" p1:ValidateRequired="true" p1:Guid="6bcdc4d6-982b-48a2-a2b6-99937e4b29fe">
+      <column name="" length="50" />
+    </property>
+    <property name="feature_visible" type="Boolean" p1:ValidateRequired="true" p1:Guid="9cf11481-549f-4cc1-9773-fb0c38ac7e32">
+      <column name="" />
+    </property>
+    <property name="feature_status" type="String" p1:ValidateMaxLength="10" p1:ValidateRequired="true" p1:Guid="c756e658-f943-4f79-98e8-2e4cf47a2ad5">
+      <column name="" />
+    </property>
+    <property name="feature_create_at" type="DateTime" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="1460627b-b809-4b80-a91f-49ca40b40a0b">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_create_by" type="Int32" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="52779360-8397-444a-98c0-0c38ec8a8ee2">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_update_at" type="DateTime" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="a412c8f3-b06c-4e92-8429-5df89b7cfd53">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_update_by" type="Int32" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="3d3fe2e3-03b6-4aa4-ab50-1f34b0cb5338">
+      <column name="" length="10" />
+    </property>
+  </class>
+  <class name="m_feature_group" entity-set="m_feature_group" table="m_feature_group" p1:Guid="914614d1-c302-40f0-80ef-3a1b3ce71603">
+    <id name="m_feature_group_id" type="Int32" value-generated="OnAdd" p1:ValidateRequired="true" p1:Guid="6b9e2113-3322-4eef-b876-d5d7f852abdd">
+      <column name="" />
+    </id>
+    <property name="m_application_id" type="Int32" p1:ValidateRequired="true" p1:Guid="f6a0aeed-134c-4ea8-8236-68a44d0bb7b4">
+      <column name="" not-null="False" />
+    </property>
+    <property name="feature_group_name" type="String" p1:ValidateMaxLength="100" p1:ValidateRequired="true" p1:Guid="c61b7bd3-0dbf-4ae9-af25-09e4aa0037f2">
+      <column name="" length="100" />
+    </property>
+    <property name="feature_group_url" type="String" p1:ValidateMaxLength="100" p1:ValidateRequired="true" p1:Guid="59054a73-ca10-4ac8-8feb-b6eda38be337">
+      <column name="" length="100" />
+    </property>
+    <property name="feature_group_status" type="String" p1:ValidateMaxLength="10" p1:ValidateRequired="true" p1:Guid="c209254f-4671-4d31-bf75-293a27126e0b">
+      <column name="" length="100" />
+    </property>
+    <property name="feature_group_squance" type="Int32" p1:ValidateRequired="true" p1:Guid="3dbe6b22-3c4d-466e-bf3b-b972afcf9937">
+      <column name="" length="100" />
+    </property>
+    <property name="feature_group_create_at" type="DateTime" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="e440c63a-ecbe-4910-9d2c-6254b33d6550">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_group_create_by" type="Int32" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="335e9fda-608f-476a-8bbe-c65e9d7728b4">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_group_update_at" type="DateTime" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="67fcf020-8d11-4c51-b74e-c87581908d5f">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_group_update_by" type="Int32" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="fe481950-05e4-4205-95f1-8c028df88c62">
+      <column name="" length="10" />
+    </property>
+    <property name="feature_group_icon" type="String" p1:nullable="True" p1:ValidateRequired="false" p1:Guid="4de922ae-29ce-4914-9083-40eb67755803">
+      <column name="" />
+    </property>
+  </class>
+  <class name="m_parameter" entity-set="m_parameter" p1:Guid="dde3b742-ccfa-4554-8efd-9a70478a583c">
+    <id name="m_parameter_id" type="Int32" value-generated="OnAdd" p1:ValidateRequired="true" p1:Guid="4dfaa89a-d2cd-43bf-96eb-594bd1351c80">
+      <column name="" />
+    </id>
+    <property name="parameter_group" type="String" p1:ValidateRequired="true" p1:Guid="4b3500c7-b7e5-4302-89ec-d61840e04228">
+      <column name="" />
+    </property>
+    <property name="parameter_key" type="String" p1:ValidateRequired="true" p1:Guid="74ddb7c6-0107-4fe1-9f07-a4db64865add">
+      <column name="" />
+    </property>
+    <property name="parameter_value" type="String" p1:ValidateRequired="true" p1:Guid="f7b3967b-b594-45d6-8b9d-4d7e9708b128">
+      <column name="" />
+    </property>
+  </class>
+  <class name="m_company" entity-set="m_company" p1:Guid="bd48f700-3313-498f-a746-85f44faa1ba7">
+    <id name="m_company_id" type="Int32" value-generated="OnAdd" p1:ValidateRequired="true" p1:Guid="166f0498-9a7d-41c4-a175-2bc84346995a">
+      <column name="" />
+    </id>
+    <property name="m_company_name" type="String" p1:ValidateRequired="true" p1:Guid="a3b9b7ca-8e32-45b7-afe6-d384560f4a0b">
+      <column name="" />
+    </property>
+    <property name="m_company_email" type="String" p1:ValidateRequired="true" p1:Guid="6c0a889b-4d0b-4a1d-8af0-53d812eb5e61">
+      <column name="" />
+    </property>
+    <property name="m_company_website" type="String" p1:ValidateRequired="true" p1:Guid="4507d926-6cc6-4999-8e32-6fb37b0058c7">
+      <column name="" />
+    </property>
+    <property name="m_company_logo" type="String" p1:ValidateRequired="true" p1:Guid="a71f0f85-3c3d-4fe4-bf3b-1e769b7b40d7">
+      <column name="" />
+    </property>
+  </class>
+  <class name="m_employe" entity-set="m_employe" p1:Guid="25851cf5-1992-4258-934f-529e1d163a0f">
+    <id name="m_employe_id" type="Int32" value-generated="OnAdd" p1:ValidateRequired="true" p1:Guid="d78f0b33-fcef-4ed4-8bea-884490ed5b2e">
+      <column name="" />
+    </id>
+    <property name="m_employe_first_name" type="String" p1:ValidateRequired="true" p1:Guid="709bf0a8-74df-487c-88e3-859a37923050">
+      <column name="" />
+    </property>
+    <property name="m_employe_last_name" type="String" p1:ValidateRequired="true" p1:Guid="dde358ec-a24a-4920-bbc2-c8c1663779bd">
+      <column name="" />
+    </property>
+    <property name="m_employe_email" type="String" p1:ValidateRequired="true" p1:Guid="6dafc931-390e-412e-aa88-dec3e32f0a44">
+      <column name="" />
+    </property>
+    <property name="m_employe_phone" type="String" p1:ValidateRequired="true" p1:Guid="a0c7cd6f-0bb4-41c6-8286-69994c2a3ad1">
+      <column name="" />
+    </property>
+    <property name="m_employe_password" type="String" p1:ValidateRequired="true" p1:Guid="e419bafa-5276-4d9c-a5de-4efedd91c0fb">
+      <column name="" />
+    </property>
+    <property name="m_company_id" type="Int32" p1:ValidateRequired="true" p1:Guid="c02fe359-8140-4559-80da-c1162a072eed">
+      <column name="" not-null="False" />
+    </property>
+  </class>
+  <associations>
+    <association name="m_feature_group_m_feature" cardinality="OneToMany" p1:Guid="f9974f7c-e17d-4d03-8126-6eadba47a04b">
+      <end1 multiplicity="One" name="m_feature_group" class="m_feature" relation-class="m_feature_group" constrained="True" lazy="False" p1:Guid="8aa79e10-6b62-47c4-b4ed-904b4837ced5">
+        <property name="m_feature_group_id" />
+      </end1>
+      <end2 multiplicity="Many" name="m_feature" class="m_feature_group" relation-class="m_feature" lazy="False" p1:Guid="a0802d75-a3cc-436a-af9f-04979e6a0dc0">
+        <property name="m_feature_group_id" />
+      </end2>
+    </association>
+    <association name="m_company_m_employe" cardinality="OneToMany" on-delete="Restrict" p1:Guid="66ae56d8-7b1c-48f0-9d81-b83cafdd5f26">
+      <end1 multiplicity="One" name="m_company" class="m_employe" relation-class="m_company" constrained="True" lazy="False" p1:Guid="81d30623-618e-4cdd-9616-92dbe84c69ba">
+        <property name="m_company_id" />
+      </end1>
+      <end2 multiplicity="Many" name="m_employes" class="m_company" relation-class="m_employe" lazy="False" p1:Guid="ff9bbb52-be59-4e3e-8aca-30561bb93a7d">
+        <property name="m_company_id" />
+      </end2>
+    </association>
+  </associations>
+</efcore>

@@ -1,0 +1,7280 @@
+[
+  {
+    "unitKerja": "100000",
+    "namaUnitKerja": "Dewan Komisaris & Staf",
+    "parentUnitKerja": "*",
+    "orgLevelName": "Komisaris                                         "
+  },
+  {
+    "unitKerja": "200000",
+    "namaUnitKerja": "Direktorat Utama",
+    "parentUnitKerja": "100000",
+    "orgLevelName": "Direktorat                                        "
+  },
+  {
+    "unitKerja": "200010",
+    "namaUnitKerja": "SU Dit. Utama",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Staf/Kelompok                                     "
+  },
+  {
+    "unitKerja": "200020",
+    "namaUnitKerja": "Staf Dit. Utama",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Staf/Kelompok                                     "
+  },
+  {
+    "unitKerja": "250000",
+    "namaUnitKerja": "Komp Satuan Pengawasan Intern",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "250010",
+    "namaUnitKerja": "SMdy Audit Intern",
+    "parentUnitKerja": "250000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "251000",
+    "namaUnitKerja": "Dep Audit Operasi & Produksi",
+    "parentUnitKerja": "250000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "251100",
+    "namaUnitKerja": "Staf Audit Operasi & Produksi",
+    "parentUnitKerja": "251000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "251200",
+    "namaUnitKerja": "Staf Dep Audit Operasi & Produksi",
+    "parentUnitKerja": "251000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "252000",
+    "namaUnitKerja": "Dep Audit Keuangan & Umum",
+    "parentUnitKerja": "250000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "252100",
+    "namaUnitKerja": "Staf Audit Keuangan & Umum",
+    "parentUnitKerja": "252000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "252200",
+    "namaUnitKerja": "Staf Dep Audit Keuangan & Umum",
+    "parentUnitKerja": "252000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "253000",
+    "namaUnitKerja": "Staf Komp. Satuan Pengawasan Intern",
+    "parentUnitKerja": "250000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "260000",
+    "namaUnitKerja": "Komp Sekretaris Perusahaan",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "260010",
+    "namaUnitKerja": "SMdy Sekretaris Perusahaan",
+    "parentUnitKerja": "260000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "260100",
+    "namaUnitKerja": "Staf Board Office",
+    "parentUnitKerja": "260000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "261000",
+    "namaUnitKerja": "Dep Komunikasi Korporat",
+    "parentUnitKerja": "260000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "261100",
+    "namaUnitKerja": "Bag Media",
+    "parentUnitKerja": "261000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "261110",
+    "namaUnitKerja": "Staf Media",
+    "parentUnitKerja": "261100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "261120",
+    "namaUnitKerja": "Staf Digital Content & Dokumentasi",
+    "parentUnitKerja": "261100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "261130",
+    "namaUnitKerja": "Si Media Massa & Penerbitan",
+    "parentUnitKerja": "261100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "261131",
+    "namaUnitKerja": "Ru Media Massa & Penerbitan",
+    "parentUnitKerja": "261130",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "261200",
+    "namaUnitKerja": "Bag Komunitas & Lembaga",
+    "parentUnitKerja": "261000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "261210",
+    "namaUnitKerja": "Staf Komunitas & Lembaga",
+    "parentUnitKerja": "261200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "261300",
+    "namaUnitKerja": "Bag Protokol",
+    "parentUnitKerja": "261000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "261310",
+    "namaUnitKerja": "Staf Protokol",
+    "parentUnitKerja": "261300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "261320",
+    "namaUnitKerja": "Si Pelayanan & Penata Kegiatan",
+    "parentUnitKerja": "261300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "261321",
+    "namaUnitKerja": "Ru Pelayanan & Penata Kegiatan",
+    "parentUnitKerja": "261320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "261400",
+    "namaUnitKerja": "Staf Dep Hubungan Masyarakat",
+    "parentUnitKerja": "261000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "262000",
+    "namaUnitKerja": "Dep Hukum & Sekretariat",
+    "parentUnitKerja": "260000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "262100",
+    "namaUnitKerja": "Staf Litigasi & Lisensi Bisnis",
+    "parentUnitKerja": "262000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "262200",
+    "namaUnitKerja": "Staf Korporasi & Dukungan Hukum Bisnis",
+    "parentUnitKerja": "262000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "262300",
+    "namaUnitKerja": "Bag Sekretariat",
+    "parentUnitKerja": "262000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "262301",
+    "namaUnitKerja": "Ru Pelayanan Korespondensi",
+    "parentUnitKerja": "262300",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "262302",
+    "namaUnitKerja": "Ru Pelayanan Arsip",
+    "parentUnitKerja": "262300",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "262310",
+    "namaUnitKerja": "Staf Bidang Administrasi",
+    "parentUnitKerja": "262300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "262320",
+    "namaUnitKerja": "Staf Bidang Kearsipan",
+    "parentUnitKerja": "262300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "262330",
+    "namaUnitKerja": "Sekretaris Direksi",
+    "parentUnitKerja": "262300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "262400",
+    "namaUnitKerja": "Staf Dep Hukum & Sekretariat",
+    "parentUnitKerja": "262000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "263000",
+    "namaUnitKerja": "Dep TKP & Manajemen Risiko",
+    "parentUnitKerja": "260000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "263100",
+    "namaUnitKerja": "Staf Tata Kelola Perusahaan",
+    "parentUnitKerja": "263000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "263200",
+    "namaUnitKerja": "Staf Manajemen Risiko",
+    "parentUnitKerja": "263000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "263300",
+    "namaUnitKerja": "Staf Kepatuhan",
+    "parentUnitKerja": "263000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "263400",
+    "namaUnitKerja": "Staf Dep TKP & Manajemen Risiko",
+    "parentUnitKerja": "263000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "264000",
+    "namaUnitKerja": "Staf Komp Sekretaris Perusahaan",
+    "parentUnitKerja": "260000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "270000",
+    "namaUnitKerja": "Komp Transformasi Bisnis",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "271000",
+    "namaUnitKerja": "Project Agrosolution",
+    "parentUnitKerja": "270000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "271100",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "271000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "271200",
+    "namaUnitKerja": "Staf Perencanaan & Administrasi",
+    "parentUnitKerja": "271000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "271300",
+    "namaUnitKerja": "Staf Project Agrosolution",
+    "parentUnitKerja": "271000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "272000",
+    "namaUnitKerja": "Project Customer Centric Model",
+    "parentUnitKerja": "270000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "272100",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "272000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "272200",
+    "namaUnitKerja": "Staf Perencanaan & Administrasi",
+    "parentUnitKerja": "272000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "272300",
+    "namaUnitKerja": "Staf Project Customer Centric Model",
+    "parentUnitKerja": "272000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "273000",
+    "namaUnitKerja": "Staf Komp. Transformasi Bisnis",
+    "parentUnitKerja": "270000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "570000A",
+    "namaUnitKerja": "Komp Prasarana & Utilitas",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "570010A",
+    "namaUnitKerja": "SMdy Prasarana & Utilitas",
+    "parentUnitKerja": "570000A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572000A",
+    "namaUnitKerja": "Dep Fabrikasi",
+    "parentUnitKerja": "570000A",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "572100A",
+    "namaUnitKerja": "Bag Candal Fabrikasi",
+    "parentUnitKerja": "572000A",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "572110A",
+    "namaUnitKerja": "Si Candal Fabrikasi",
+    "parentUnitKerja": "572100A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572111A",
+    "namaUnitKerja": "Ru Candal Pabrik I & Non Pabrik",
+    "parentUnitKerja": "572110A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572112A",
+    "namaUnitKerja": "Ru Candal Pabrik II",
+    "parentUnitKerja": "572110A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572113A",
+    "namaUnitKerja": "Ru Candal Pabrik III",
+    "parentUnitKerja": "572110A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572120A",
+    "namaUnitKerja": "Si Teknis & Penunjang",
+    "parentUnitKerja": "572100A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572121A",
+    "namaUnitKerja": "Ru Pelayanan & Har Alat Berat",
+    "parentUnitKerja": "572120A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572122A",
+    "namaUnitKerja": "Ru Evaluasi Peralatan",
+    "parentUnitKerja": "572120A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572123A",
+    "namaUnitKerja": "Ru Material",
+    "parentUnitKerja": "572120A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572200A",
+    "namaUnitKerja": "Bag Fabrikasi",
+    "parentUnitKerja": "572000A",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "572210A",
+    "namaUnitKerja": "Si Mesin",
+    "parentUnitKerja": "572200A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572211A",
+    "namaUnitKerja": "Ru Mesin 1",
+    "parentUnitKerja": "572210A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572212A",
+    "namaUnitKerja": "Ru Mesin 2",
+    "parentUnitKerja": "572210A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572220A",
+    "namaUnitKerja": "Si Las",
+    "parentUnitKerja": "572200A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572221A",
+    "namaUnitKerja": "Ru Las 1",
+    "parentUnitKerja": "572220A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572222A",
+    "namaUnitKerja": "Ru Las 2",
+    "parentUnitKerja": "572220A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572230A",
+    "namaUnitKerja": "Si Shift Mesin/Fabrikasi",
+    "parentUnitKerja": "572200A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572231A",
+    "namaUnitKerja": "Ru Shift Mesin/Fabrikasi",
+    "parentUnitKerja": "572230A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572300A",
+    "namaUnitKerja": "Bag Shop Engineering & QC",
+    "parentUnitKerja": "572000A",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "572310A",
+    "namaUnitKerja": "Si Perancangan",
+    "parentUnitKerja": "572300A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572311A",
+    "namaUnitKerja": "Ru Perancangan Pabrik I, II & Non Pabrik",
+    "parentUnitKerja": "572310A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572312A",
+    "namaUnitKerja": "Ru Perancangan Pabrik III",
+    "parentUnitKerja": "572310A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572320A",
+    "namaUnitKerja": "Si Teknis & Quality Control",
+    "parentUnitKerja": "572300A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572321A",
+    "namaUnitKerja": "Ru TQC Pabrik I & Non Pabrik",
+    "parentUnitKerja": "572320A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572322A",
+    "namaUnitKerja": "Ru TQC Pabrik II",
+    "parentUnitKerja": "572320A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572323A",
+    "namaUnitKerja": "Ru TQC Pabrik III",
+    "parentUnitKerja": "572320A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572400A",
+    "namaUnitKerja": "Bag Alat Berat",
+    "parentUnitKerja": "572000A",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "572410A",
+    "namaUnitKerja": "Si Ops Alat Berat Pabrik",
+    "parentUnitKerja": "572400A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572411A",
+    "namaUnitKerja": "Ru Shift Ops Pabrik II A & II B",
+    "parentUnitKerja": "572410A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572412A",
+    "namaUnitKerja": "Ru Shift Ops Pabrik I, III A & III B",
+    "parentUnitKerja": "572410A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572420A",
+    "namaUnitKerja": "Si Ops Alat Berat Non Pabrik",
+    "parentUnitKerja": "572400A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572421A",
+    "namaUnitKerja": "Ru Ops Alat Angkat Angkut",
+    "parentUnitKerja": "572420A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572422A",
+    "namaUnitKerja": "Ru Ops Non Alat Angkat Angkut",
+    "parentUnitKerja": "572420A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572430A",
+    "namaUnitKerja": "Si Ops Alat Berat Bahan Baku & Non Pupuk",
+    "parentUnitKerja": "572400A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572431A",
+    "namaUnitKerja": "Ru Ops Alat Berat Bahan Baku/Non Pupuk",
+    "parentUnitKerja": "572430A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572432A",
+    "namaUnitKerja": "Ru Ops Open Storage",
+    "parentUnitKerja": "572430A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572440A",
+    "namaUnitKerja": "Si Pemeliharaan Alat Berat",
+    "parentUnitKerja": "572400A",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "572441A",
+    "namaUnitKerja": "Ru Bengkel Alat Berat",
+    "parentUnitKerja": "572440A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572442A",
+    "namaUnitKerja": "Ru Listrik & Repair Body",
+    "parentUnitKerja": "572440A",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "572500A",
+    "namaUnitKerja": "Staf Dep Fabrikasi",
+    "parentUnitKerja": "572000A",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "575000A",
+    "namaUnitKerja": "Staf Komp Prasarana & Utilitas",
+    "parentUnitKerja": "570000A",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "600000",
+    "namaUnitKerja": "SEVP Operasi",
+    "parentUnitKerja": "E00000",
+    "orgLevelName": "Direktorat                                        "
+  },
+  {
+    "unitKerja": "601000",
+    "namaUnitKerja": "Ro Keselamatan & Kes. Kerja",
+    "parentUnitKerja": "600000",
+    "orgLevelName": "Departemen/Biro/Bidang                            "
+  },
+  {
+    "unitKerja": "632B21",
+    "namaUnitKerja": "Ru Kel. Sipil II A",
+    "parentUnitKerja": "632B20",
+    "orgLevelName": "Regu                                              "
+  },
+  {
+    "unitKerja": "642600",
+    "namaUnitKerja": "Staf Departemen Har III",
+    "parentUnitKerja": "642000",
+    "orgLevelName": "Staf/Kelompok                                     "
+  },
+  {
+    "unitKerja": "670000",
+    "namaUnitKerja": "Komp Pabrik I",
+    "parentUnitKerja": "600000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "670010",
+    "namaUnitKerja": "SMdy Pabrik I",
+    "parentUnitKerja": "670000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671000",
+    "namaUnitKerja": "Dep Produksi I A",
+    "parentUnitKerja": "670000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "671010",
+    "namaUnitKerja": "Si Pengawas Shift Pabrik I",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671100",
+    "namaUnitKerja": "Bag Amoniak I A",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "671110",
+    "namaUnitKerja": "Si Amoniak I A",
+    "parentUnitKerja": "671100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671111",
+    "namaUnitKerja": "Ru Pengendalian Proses",
+    "parentUnitKerja": "671110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671112",
+    "namaUnitKerja": "Ru Pengendalian Alat",
+    "parentUnitKerja": "671110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671200",
+    "namaUnitKerja": "Bag Urea I A",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "671210",
+    "namaUnitKerja": "Si Urea I A",
+    "parentUnitKerja": "671200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671211",
+    "namaUnitKerja": "Ru Pengendalian Proses",
+    "parentUnitKerja": "671210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671212",
+    "namaUnitKerja": "Ru Pengendalian Alat",
+    "parentUnitKerja": "671210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671300",
+    "namaUnitKerja": "Bag ZA I/III",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "671310",
+    "namaUnitKerja": "Si ZA I/III",
+    "parentUnitKerja": "671300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671311",
+    "namaUnitKerja": "Ru ZA I",
+    "parentUnitKerja": "671310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671312",
+    "namaUnitKerja": "Ru ZA III",
+    "parentUnitKerja": "671310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671400",
+    "namaUnitKerja": "Bag Utilitas I",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "671410",
+    "namaUnitKerja": "Si Utilitas I",
+    "parentUnitKerja": "671400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671411",
+    "namaUnitKerja": "Ru B-1102 & Supporting",
+    "parentUnitKerja": "671410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671412",
+    "namaUnitKerja": "Ru LSU & Cooling Tower",
+    "parentUnitKerja": "671410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671413",
+    "namaUnitKerja": "Ru GTG & WHB",
+    "parentUnitKerja": "671410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671500",
+    "namaUnitKerja": "Bag Pengantongan I A & Produk Samping",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "671510",
+    "namaUnitKerja": "Si Pengantongan I A & Produk Samping",
+    "parentUnitKerja": "671500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671511",
+    "namaUnitKerja": "Ru Pengantongan Urea",
+    "parentUnitKerja": "671510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671512",
+    "namaUnitKerja": "Ru Pengantongan ZA",
+    "parentUnitKerja": "671510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671513",
+    "namaUnitKerja": "Ru CO2 Plant",
+    "parentUnitKerja": "671510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671514",
+    "namaUnitKerja": "Ru Loading",
+    "parentUnitKerja": "671510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671600",
+    "namaUnitKerja": "Staf Dep Produksi I A",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "671700",
+    "namaUnitKerja": "Bag Pengolahan Air",
+    "parentUnitKerja": "671000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "671710",
+    "namaUnitKerja": "Si Pengolahan Air Babat",
+    "parentUnitKerja": "671700",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671711",
+    "namaUnitKerja": "Ru Shift Pengolahan Air Babat",
+    "parentUnitKerja": "671710",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "671720",
+    "namaUnitKerja": "Si Pengolahan Air Gunung Sari",
+    "parentUnitKerja": "671700",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "671721",
+    "namaUnitKerja": "Ru Shift Pengolahan Air Gunung Sari",
+    "parentUnitKerja": "671720",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672000",
+    "namaUnitKerja": "Dep Produksi I B",
+    "parentUnitKerja": "670000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "672100",
+    "namaUnitKerja": "Bag Amoniak I B",
+    "parentUnitKerja": "672000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "672110",
+    "namaUnitKerja": "Si Amoniak I B",
+    "parentUnitKerja": "672100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "672111",
+    "namaUnitKerja": "Ru Pengendalian Proses",
+    "parentUnitKerja": "672110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672112",
+    "namaUnitKerja": "Ru Pengendalian Alat",
+    "parentUnitKerja": "672110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672200",
+    "namaUnitKerja": "Bag Urea I B",
+    "parentUnitKerja": "672000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "672210",
+    "namaUnitKerja": "Si Urea I B",
+    "parentUnitKerja": "672200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "672211",
+    "namaUnitKerja": "Ru Pengendalian Proses",
+    "parentUnitKerja": "672210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672212",
+    "namaUnitKerja": "Ru Pengendalian Alat",
+    "parentUnitKerja": "672210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672300",
+    "namaUnitKerja": "Bag Pengantongan I B & Supporting",
+    "parentUnitKerja": "672000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "672310",
+    "namaUnitKerja": "Si Pengantongan I B & Supporting",
+    "parentUnitKerja": "672300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "672311",
+    "namaUnitKerja": "Ru RO & Cooling Tower",
+    "parentUnitKerja": "672310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672312",
+    "namaUnitKerja": "Ru Pengantongan & Supporting",
+    "parentUnitKerja": "672310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "672500",
+    "namaUnitKerja": "Staf Dep Produksi I B",
+    "parentUnitKerja": "672000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "674000",
+    "namaUnitKerja": "Staf Komp. Pabrik I",
+    "parentUnitKerja": "670000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "680000",
+    "namaUnitKerja": "Komp Pabrik II",
+    "parentUnitKerja": "600000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "680010",
+    "namaUnitKerja": "SMdy Pabrik II",
+    "parentUnitKerja": "680000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681000",
+    "namaUnitKerja": "Dep Produksi II A",
+    "parentUnitKerja": "680000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "681010",
+    "namaUnitKerja": "Si Pengawas Shift",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681020",
+    "namaUnitKerja": "Staf Pendukung Operasi II A",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "681100",
+    "namaUnitKerja": "Bag NPK Phonska I",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "681110",
+    "namaUnitKerja": "Si NPK Phonska I",
+    "parentUnitKerja": "681100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681111",
+    "namaUnitKerja": "Ru Bahan Baku & Utilitas NPK Phonska I",
+    "parentUnitKerja": "681110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681112",
+    "namaUnitKerja": "Ru Unit Proses & Granulasi NPK Phonska I",
+    "parentUnitKerja": "681110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681200",
+    "namaUnitKerja": "Bag NPK Phonska II/III",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "681210",
+    "namaUnitKerja": "Si NPK Phonska II",
+    "parentUnitKerja": "681200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681211",
+    "namaUnitKerja": "Ru Bahan Baku & Utilitas NPK Phonska II",
+    "parentUnitKerja": "681210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681212",
+    "namaUnitKerja": "Ru Unit Proses & Granulasi NPK Phonska II",
+    "parentUnitKerja": "681210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681220",
+    "namaUnitKerja": "Si NPK Phonska III",
+    "parentUnitKerja": "681200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681221",
+    "namaUnitKerja": "Ru Bahan Baku & Utilitas NPK Phonska III",
+    "parentUnitKerja": "681220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681222",
+    "namaUnitKerja": "Ru Unit Proses & Granulasi NPK Phonska III",
+    "parentUnitKerja": "681220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681300",
+    "namaUnitKerja": "Bag Pupuk Fosfat I",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "681310",
+    "namaUnitKerja": "Si Pupuk Fosfat I",
+    "parentUnitKerja": "681300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681311",
+    "namaUnitKerja": "Ru Unit 100/200",
+    "parentUnitKerja": "681310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681312",
+    "namaUnitKerja": "Ru Unit 300",
+    "parentUnitKerja": "681310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681400",
+    "namaUnitKerja": "Bag Pengantongan II",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "681410",
+    "namaUnitKerja": "Si Pengantongan II",
+    "parentUnitKerja": "681400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "681411",
+    "namaUnitKerja": "Ru Pantong NPK Phonska I",
+    "parentUnitKerja": "681410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681412",
+    "namaUnitKerja": "Ru Pantong NPK Phonska II/III & SP-36",
+    "parentUnitKerja": "681410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681413",
+    "namaUnitKerja": "Ru Pantong Phonska IV",
+    "parentUnitKerja": "681410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "681600",
+    "namaUnitKerja": "Staf Dep Produksi II A",
+    "parentUnitKerja": "681000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "682000",
+    "namaUnitKerja": "Dep Produksi II B",
+    "parentUnitKerja": "680000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "682010",
+    "namaUnitKerja": "Si Pengawas Shift",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "682020",
+    "namaUnitKerja": "Staf Pendukung Operasi",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "682100",
+    "namaUnitKerja": "Bag Pupuk Fosfat II/Phonska IV",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "682110",
+    "namaUnitKerja": "Si Pupuk Fosfat II/Phonska IV",
+    "parentUnitKerja": "682100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "682111",
+    "namaUnitKerja": "Ru BB, Furnace & Scrubbing",
+    "parentUnitKerja": "682110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682112",
+    "namaUnitKerja": "Ru Proses",
+    "parentUnitKerja": "682110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682200",
+    "namaUnitKerja": "Bag NPK II/III/IV",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "682210",
+    "namaUnitKerja": "Si NPK II/III/IV",
+    "parentUnitKerja": "682200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "682211",
+    "namaUnitKerja": "Ru Bahan Baku",
+    "parentUnitKerja": "682210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682212",
+    "namaUnitKerja": "Ru NPK II",
+    "parentUnitKerja": "682210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682220",
+    "namaUnitKerja": "Si NPK III/IV",
+    "parentUnitKerja": "682200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "682221",
+    "namaUnitKerja": "Ru NPK III",
+    "parentUnitKerja": "682210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682222",
+    "namaUnitKerja": "Ru NPK IV",
+    "parentUnitKerja": "682210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682300",
+    "namaUnitKerja": "Bag ZK I/II & NPK I",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "682310",
+    "namaUnitKerja": "Si ZK I/II & NPK I",
+    "parentUnitKerja": "682300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "682311",
+    "namaUnitKerja": "Ru Unit ZK I/II",
+    "parentUnitKerja": "682310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682312",
+    "namaUnitKerja": "Ru NPK I",
+    "parentUnitKerja": "682310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682400",
+    "namaUnitKerja": "Bag Utilitas II",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "682410",
+    "namaUnitKerja": "Si Utilitas II",
+    "parentUnitKerja": "682400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "682411",
+    "namaUnitKerja": "Ru U. 900/GI 150",
+    "parentUnitKerja": "682410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682412",
+    "namaUnitKerja": "Ru Tank Yard Unit PA",
+    "parentUnitKerja": "682410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682413",
+    "namaUnitKerja": "Ru Tank Yard Unit NH3",
+    "parentUnitKerja": "682410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "682600",
+    "namaUnitKerja": "Staf Dep Produksi II B",
+    "parentUnitKerja": "682000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684000",
+    "namaUnitKerja": "Dep Pengelolaan Mitra Produksi",
+    "parentUnitKerja": "680000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "684100",
+    "namaUnitKerja": "Bag Kemitraan Petroganik",
+    "parentUnitKerja": "684000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "684110",
+    "namaUnitKerja": "Staf Kemitraan Petroganik Jatim",
+    "parentUnitKerja": "684100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684120",
+    "namaUnitKerja": "Staf Kemitraan Petroganik Jateng & Luar Jawa",
+    "parentUnitKerja": "684100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684130",
+    "namaUnitKerja": "Staf Administrasi Petroganik",
+    "parentUnitKerja": "684100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684200",
+    "namaUnitKerja": "Bag Kemitraan Non Petroganik",
+    "parentUnitKerja": "684000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "684201",
+    "namaUnitKerja": "Staf Produksi Mixtro",
+    "parentUnitKerja": "684200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684210",
+    "namaUnitKerja": "Staf Kemitraan NPK Cluster",
+    "parentUnitKerja": "684200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684220",
+    "namaUnitKerja": "Staf Kemitraan Pupuk Organik Cair",
+    "parentUnitKerja": "684200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684230",
+    "namaUnitKerja": "Staf Kemitraan Produk Hayati & UPBB",
+    "parentUnitKerja": "684200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "684300",
+    "namaUnitKerja": "Staf Dep Pengelolaan Mitra Produksi",
+    "parentUnitKerja": "684000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "685000",
+    "namaUnitKerja": "Staf Komp. Pabrik II",
+    "parentUnitKerja": "680000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "690000",
+    "namaUnitKerja": "Komp Pabrik III",
+    "parentUnitKerja": "600000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "690010",
+    "namaUnitKerja": "SMdy Pabrik III",
+    "parentUnitKerja": "690000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "690100",
+    "namaUnitKerja": "Bag Shift",
+    "parentUnitKerja": "690000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "690110",
+    "namaUnitKerja": "Si Shift Interkoneksi Listrik",
+    "parentUnitKerja": "690100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "690120",
+    "namaUnitKerja": "Staf Bag Shift",
+    "parentUnitKerja": "690100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "691000",
+    "namaUnitKerja": "Dep Produksi III A",
+    "parentUnitKerja": "690000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "691010",
+    "namaUnitKerja": "Si Pengawas Shift",
+    "parentUnitKerja": "691000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "691020",
+    "namaUnitKerja": "Staf Pendukung Operasi III A",
+    "parentUnitKerja": "691000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "691100",
+    "namaUnitKerja": "Bag Asam Sulfat & Utilitas III A",
+    "parentUnitKerja": "691000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "691110",
+    "namaUnitKerja": "Si Utilitas III A",
+    "parentUnitKerja": "691100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "691111",
+    "namaUnitKerja": "Ru Power Generator",
+    "parentUnitKerja": "691110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691112",
+    "namaUnitKerja": "Ru Water Treatment & Effluent Treatment",
+    "parentUnitKerja": "691110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691120",
+    "namaUnitKerja": "Si Asam Sulfat III A",
+    "parentUnitKerja": "691100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "691121",
+    "namaUnitKerja": "Ru Asam Sulfat III A",
+    "parentUnitKerja": "691120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691200",
+    "namaUnitKerja": "Bag Asam Fosfat III A",
+    "parentUnitKerja": "691000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "691201",
+    "namaUnitKerja": "Ru ND Shut Down Cleaning & House Keeping",
+    "parentUnitKerja": "691200",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691210",
+    "namaUnitKerja": "Si Asam Fosfat III A",
+    "parentUnitKerja": "691200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "691211",
+    "namaUnitKerja": "Ru Reaction & Filtration",
+    "parentUnitKerja": "691210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691212",
+    "namaUnitKerja": "Ru Grinding, Concent, & Fluorine Scrubber",
+    "parentUnitKerja": "691210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691300",
+    "namaUnitKerja": "Bag ZA II",
+    "parentUnitKerja": "691000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "691310",
+    "namaUnitKerja": "Si ZA II",
+    "parentUnitKerja": "691300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "691311",
+    "namaUnitKerja": "Ru Reaction & Filtration",
+    "parentUnitKerja": "691310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691312",
+    "namaUnitKerja": "Ru Karbonasi, Neutralizer, & Kalsinasi Kapur",
+    "parentUnitKerja": "691310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "691500",
+    "namaUnitKerja": "Staf Dep Produksi III A",
+    "parentUnitKerja": "691000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "692000",
+    "namaUnitKerja": "Dep Produksi III B",
+    "parentUnitKerja": "690000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "692010",
+    "namaUnitKerja": "Si Pengawas Shift",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692020",
+    "namaUnitKerja": "Staf Pendukung Operasi III B",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "692100",
+    "namaUnitKerja": "Bag Asam Sulfat & Utilitas III B",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "692110",
+    "namaUnitKerja": "Si Utilitas III B",
+    "parentUnitKerja": "692100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692111",
+    "namaUnitKerja": "Ru Steam Turbine Generator",
+    "parentUnitKerja": "692110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692112",
+    "namaUnitKerja": "Ru Water Treatment & Effluent Treatment",
+    "parentUnitKerja": "692110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692120",
+    "namaUnitKerja": "Si Asam Sulfat III B",
+    "parentUnitKerja": "692100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692121",
+    "namaUnitKerja": "Ru Asam Sulfat III B",
+    "parentUnitKerja": "692120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692200",
+    "namaUnitKerja": "Bag Asam Fosfat III B",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "692201",
+    "namaUnitKerja": "Ru ND Shut Down Cleaning & House Keeping",
+    "parentUnitKerja": "692200",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692210",
+    "namaUnitKerja": "Si Asam Fosfat III B",
+    "parentUnitKerja": "692200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692211",
+    "namaUnitKerja": "Ru Reaction & Filtration",
+    "parentUnitKerja": "692210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692212",
+    "namaUnitKerja": "Ru Grinding, Concent, & Fluorine Scrubber",
+    "parentUnitKerja": "692210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692300",
+    "namaUnitKerja": "Bag Gypsum & AIF3",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "692310",
+    "namaUnitKerja": "Si Gypsum III",
+    "parentUnitKerja": "692300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692311",
+    "namaUnitKerja": "Ru Purifikasi I",
+    "parentUnitKerja": "692310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692312",
+    "namaUnitKerja": "Ru Purifikasi II",
+    "parentUnitKerja": "692310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692320",
+    "namaUnitKerja": "Si Aluminium Fluorida",
+    "parentUnitKerja": "692300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692321",
+    "namaUnitKerja": "Ru AIF3 Liquid System",
+    "parentUnitKerja": "692320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692322",
+    "namaUnitKerja": "Ru AIF3 Solid System",
+    "parentUnitKerja": "692320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692400",
+    "namaUnitKerja": "Bag Utilitas Batu Bara",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "692410",
+    "namaUnitKerja": "Si Utilitas Batu Bara",
+    "parentUnitKerja": "692400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "692411",
+    "namaUnitKerja": "Ru Utilitas Batu Bara",
+    "parentUnitKerja": "692410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692412",
+    "namaUnitKerja": "Ru Turbin & Auxiliary",
+    "parentUnitKerja": "692410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "692600",
+    "namaUnitKerja": "Staf Dep Produksi III B",
+    "parentUnitKerja": "692000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "694000",
+    "namaUnitKerja": "Staf Komp. Pabrik III",
+    "parentUnitKerja": "690000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "6A0120",
+    "namaUnitKerja": "Staf Bag Shift",
+    "parentUnitKerja": "6A0100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "700000",
+    "namaUnitKerja": "DPB. Anak Perusahaan",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "                                                  "
+  },
+  {
+    "unitKerja": "700001",
+    "namaUnitKerja": "PT Petrokimia Kayaku",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Anak Perusahaan                                   "
+  },
+  {
+    "unitKerja": "700002",
+    "namaUnitKerja": "PT Petronika",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Anak Perusahaan                                   "
+  },
+  {
+    "unitKerja": "700003",
+    "namaUnitKerja": "PT Petrosida",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Anak Perusahaan                                   "
+  },
+  {
+    "unitKerja": "700004",
+    "namaUnitKerja": "PT Petrocentral",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Anak Perusahaan                                   "
+  },
+  {
+    "unitKerja": "700007",
+    "namaUnitKerja": "PT Kawasan Industri Gresik",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Anak Perusahaan                                   "
+  },
+  {
+    "unitKerja": "700008",
+    "namaUnitKerja": "PT Petro Jordan Abadi",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Anak Perusahaan                                   "
+  },
+  {
+    "unitKerja": "700009",
+    "namaUnitKerja": "PT Pupuk Indonesia Energi",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Perusahaan/BUMN Lain"
+  },
+  {
+    "unitKerja": "710000",
+    "namaUnitKerja": "Yayasan Petrokimia Gresik",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710001",
+    "namaUnitKerja": "Yayasan PG",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710002",
+    "namaUnitKerja": "PT GCS",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710003",
+    "namaUnitKerja": "PT AJG",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710004",
+    "namaUnitKerja": "PT PCS",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710005",
+    "namaUnitKerja": "PT Petrokopindo Cipta Selaras",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710007",
+    "namaUnitKerja": "PT Graha Sarana Gresik",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710008",
+    "namaUnitKerja": "PT Petro Graha Medika",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "710009",
+    "namaUnitKerja": "PT Fokus Jasa Mitra",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "Yayasan Petrokimia Gresik"
+  },
+  {
+    "unitKerja": "720000",
+    "namaUnitKerja": "K3PG",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "K3PG"
+  },
+  {
+    "unitKerja": "720001",
+    "namaUnitKerja": "K3PG",
+    "parentUnitKerja": "300000",
+    "orgLevelName": "K3PG                                              "
+  },
+  {
+    "unitKerja": "730000",
+    "namaUnitKerja": "Graha Sarana Gresik",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "PT Graha Sarana Gresik"
+  },
+  {
+    "unitKerja": "750013",
+    "namaUnitKerja": "Proyek Amoniak & Urea II",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Proyek                                            "
+  },
+  {
+    "unitKerja": "750015",
+    "namaUnitKerja": "Proyek TK Amoniak & Phonska IV",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Proyek                                            "
+  },
+  {
+    "unitKerja": "750017",
+    "namaUnitKerja": "Proyek Bangpel & Pergudangan",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "750018",
+    "namaUnitKerja": "Proyek Revamping Pb Asam Fosfat",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "750019",
+    "namaUnitKerja": "Proyek Uprating IPA Gunungsari",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "750020",
+    "namaUnitKerja": "Proyek Pengembangan Tahun 2014",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "750021",
+    "namaUnitKerja": "Proyek-Proyek Pengembangan",
+    "parentUnitKerja": "500000A",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "750022",
+    "namaUnitKerja": "Proyek-Proyek Pengembangan",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "750023",
+    "namaUnitKerja": "Proyek AIF3-II",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "751013",
+    "namaUnitKerja": "Bid Administrasi & Logistik",
+    "parentUnitKerja": "750013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751018",
+    "namaUnitKerja": "Bid Administrasi & Logistik",
+    "parentUnitKerja": "750018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751019",
+    "namaUnitKerja": "Bid Administrasi & Logistik",
+    "parentUnitKerja": "750019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751020",
+    "namaUnitKerja": "Bid Administrasi & Logistik",
+    "parentUnitKerja": "750020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751021",
+    "namaUnitKerja": "Bidang Administrasi & Logistik",
+    "parentUnitKerja": "750021",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "751022",
+    "namaUnitKerja": "Bidang Administrasi & Logistik",
+    "parentUnitKerja": "750022",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "751023",
+    "namaUnitKerja": "Bidang Administrasi & Logistik",
+    "parentUnitKerja": "750023",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "751113",
+    "namaUnitKerja": "Staf Project Control Engineer",
+    "parentUnitKerja": "751013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751118",
+    "namaUnitKerja": "Staf Proj. Cont. Pb PA & GSP",
+    "parentUnitKerja": "751018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751119",
+    "namaUnitKerja": "Staf Project Control",
+    "parentUnitKerja": "751019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751120",
+    "namaUnitKerja": "Staf Project Control",
+    "parentUnitKerja": "751020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751213",
+    "namaUnitKerja": "Staf Pengadaan & Humas",
+    "parentUnitKerja": "751013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751218",
+    "namaUnitKerja": "Staf Proj. Cont. Pb SA,ET,SU & Off.Fas",
+    "parentUnitKerja": "751018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751219",
+    "namaUnitKerja": "Staf Logistik",
+    "parentUnitKerja": "751019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751220",
+    "namaUnitKerja": "Staf Administrasi & Keuangan",
+    "parentUnitKerja": "751020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751313",
+    "namaUnitKerja": "Staf Administrasi & Keuangan",
+    "parentUnitKerja": "751013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751318",
+    "namaUnitKerja": "Staf Logistik",
+    "parentUnitKerja": "751018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751319",
+    "namaUnitKerja": "Staf Administrasi & Keuangan",
+    "parentUnitKerja": "751019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751320",
+    "namaUnitKerja": "Staf SHE",
+    "parentUnitKerja": "751020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "751418",
+    "namaUnitKerja": "Staf Administrasi & Keuangan",
+    "parentUnitKerja": "751018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752013",
+    "namaUnitKerja": "Bid Engineering",
+    "parentUnitKerja": "750013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752018",
+    "namaUnitKerja": "Bid Engineering",
+    "parentUnitKerja": "750018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752019",
+    "namaUnitKerja": "Bid Engineering",
+    "parentUnitKerja": "750019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752020",
+    "namaUnitKerja": "Bid Engineering & Konstruksi",
+    "parentUnitKerja": "750020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752021",
+    "namaUnitKerja": "Bidang Engineering & Konstruksi",
+    "parentUnitKerja": "750021",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "752022",
+    "namaUnitKerja": "Bidang Engineering & Konstruksi",
+    "parentUnitKerja": "750022",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "752023",
+    "namaUnitKerja": "Bidang Engineering & Kontruksi",
+    "parentUnitKerja": "750023",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "752113",
+    "namaUnitKerja": "Process Engineer Am.Plant",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752118",
+    "namaUnitKerja": "Staf Process Engineering",
+    "parentUnitKerja": "752018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752119",
+    "namaUnitKerja": "Staf Process Engineer",
+    "parentUnitKerja": "752019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752120",
+    "namaUnitKerja": "Staf Process",
+    "parentUnitKerja": "752020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752213",
+    "namaUnitKerja": "Process Engineer Urea Plant",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752218",
+    "namaUnitKerja": "Staf Civil Engineering",
+    "parentUnitKerja": "752018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752219",
+    "namaUnitKerja": "Staf Civil Engineer",
+    "parentUnitKerja": "752019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752220",
+    "namaUnitKerja": "Staf Civil",
+    "parentUnitKerja": "752020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752313",
+    "namaUnitKerja": "Process Engineer Utility & Am.Storage",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752318",
+    "namaUnitKerja": "Staf Mechanical Engineering",
+    "parentUnitKerja": "752018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752319",
+    "namaUnitKerja": "Staf Mechanical/Piping Engineer",
+    "parentUnitKerja": "752019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752320",
+    "namaUnitKerja": "Staf Mechanical & Piping",
+    "parentUnitKerja": "752020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752413",
+    "namaUnitKerja": "Mechanical/Rotating Engineer",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752418",
+    "namaUnitKerja": "Staf Piping Engineering",
+    "parentUnitKerja": "752018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752419",
+    "namaUnitKerja": "Staf Electric/Instrument Engineer",
+    "parentUnitKerja": "752019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752420",
+    "namaUnitKerja": "Staf Electrical/Instrument",
+    "parentUnitKerja": "752020",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752513",
+    "namaUnitKerja": "Civil Engineer",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752518",
+    "namaUnitKerja": "Staf Electrical Engineering",
+    "parentUnitKerja": "752018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752613",
+    "namaUnitKerja": "Electrical Engineer",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752618",
+    "namaUnitKerja": "Staf Instrument Engineering",
+    "parentUnitKerja": "752018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "752713",
+    "namaUnitKerja": "Instrument Engineer",
+    "parentUnitKerja": "752013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753013",
+    "namaUnitKerja": "Bid Konstruksi & Inspeksi",
+    "parentUnitKerja": "750013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753018",
+    "namaUnitKerja": "Bid Konstr & Inspeksi",
+    "parentUnitKerja": "750018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753019",
+    "namaUnitKerja": "Bid Konstruksi & Inspeksi",
+    "parentUnitKerja": "750019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753021",
+    "namaUnitKerja": "Proyek Emergency Water Supply",
+    "parentUnitKerja": "750021",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "753113",
+    "namaUnitKerja": "Lead Mechanical/Rotating Engineer",
+    "parentUnitKerja": "753013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753118",
+    "namaUnitKerja": "Staf Mechanical Rotating",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753119",
+    "namaUnitKerja": "Staf Civil",
+    "parentUnitKerja": "753019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753213",
+    "namaUnitKerja": "Lead Civil Engineer",
+    "parentUnitKerja": "753013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753218",
+    "namaUnitKerja": "Staf Mechanical Static",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753219",
+    "namaUnitKerja": "Staf Mechanical/Piping Inspector",
+    "parentUnitKerja": "753019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753313",
+    "namaUnitKerja": "Lead Electrical Engineer",
+    "parentUnitKerja": "753013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753318",
+    "namaUnitKerja": "Staf Piping",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753319",
+    "namaUnitKerja": "Staf Electrical/Instrument",
+    "parentUnitKerja": "753019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753413",
+    "namaUnitKerja": "Lead Instrument Engineer",
+    "parentUnitKerja": "753013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753418",
+    "namaUnitKerja": "Staf Civil/Inspector",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753419",
+    "namaUnitKerja": "Security & SHE",
+    "parentUnitKerja": "753019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753513",
+    "namaUnitKerja": "Fabrication & Shop Inspector",
+    "parentUnitKerja": "753013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753518",
+    "namaUnitKerja": "Staf Electrical/Inspector",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753613",
+    "namaUnitKerja": "Safety Inspector",
+    "parentUnitKerja": "753013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753618",
+    "namaUnitKerja": "Staf Instrument/Inspector",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753718",
+    "namaUnitKerja": "Staf Inspeksi",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "753818",
+    "namaUnitKerja": "Security & SHE",
+    "parentUnitKerja": "753018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754013",
+    "namaUnitKerja": "Bid Persiapan Operasi",
+    "parentUnitKerja": "750013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754018",
+    "namaUnitKerja": "Bid Persiapan Operasi",
+    "parentUnitKerja": "750018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754019",
+    "namaUnitKerja": "Bid Persiapan Operasi",
+    "parentUnitKerja": "750019",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754113",
+    "namaUnitKerja": "Process & Operation engineer",
+    "parentUnitKerja": "754013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754118",
+    "namaUnitKerja": "Staf Per.Ops Pb PA & GP",
+    "parentUnitKerja": "754018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754213",
+    "namaUnitKerja": "Lead Mechanical Engineer",
+    "parentUnitKerja": "754013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754218",
+    "namaUnitKerja": "Staf Per.Ops Pb SA & ET",
+    "parentUnitKerja": "754018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754313",
+    "namaUnitKerja": "Lead Electrical Engineer",
+    "parentUnitKerja": "754013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754318",
+    "namaUnitKerja": "Staf Per.Ops Pb SU & Offsites Facilities",
+    "parentUnitKerja": "754018",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "754413",
+    "namaUnitKerja": "Lead Instrument Engineer",
+    "parentUnitKerja": "754013",
+    "orgLevelName": "Proyek"
+  },
+  {
+    "unitKerja": "760011",
+    "namaUnitKerja": "PT Pupuk Indonesia (Persero)",
+    "parentUnitKerja": "A00000",
+    "orgLevelName": "Perusahaan/BUMN Lain                              "
+  },
+  {
+    "unitKerja": "760012",
+    "namaUnitKerja": "PT Pupuk Indonesia Pangan",
+    "parentUnitKerja": "A00000",
+    "orgLevelName": "Perusahaan/BUMN Lain"
+  },
+  {
+    "unitKerja": "760013",
+    "namaUnitKerja": "PT Pupuk Indonesia Energi",
+    "parentUnitKerja": "A00000",
+    "orgLevelName": "Perusahaan/BUMN Lain"
+  },
+  {
+    "unitKerja": "760014",
+    "namaUnitKerja": "PT Pupuk Kujang",
+    "parentUnitKerja": "A00000",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "760015",
+    "namaUnitKerja": "PT Pupuk Indonesia Logistik",
+    "parentUnitKerja": "A00000",
+    "orgLevelName": ""
+  },
+  {
+    "unitKerja": "780000",
+    "namaUnitKerja": "Komite Audit",
+    "parentUnitKerja": "100000",
+    "orgLevelName": "Komite/Tim"
+  },
+  {
+    "unitKerja": "780001",
+    "namaUnitKerja": "Komite Audit",
+    "parentUnitKerja": "100000",
+    "orgLevelName": "Komite/Tim                                        "
+  },
+  {
+    "unitKerja": "790001",
+    "namaUnitKerja": "Komite Manajemen Risiko",
+    "parentUnitKerja": "100000",
+    "orgLevelName": "Komite/Tim"
+  },
+  {
+    "unitKerja": "B21500",
+    "namaUnitKerja": "Bag Pengendalian Operasi",
+    "parentUnitKerja": "B21000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "B21510",
+    "namaUnitKerja": "Staf Pengendalian Operasi",
+    "parentUnitKerja": "B21500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C90000",
+    "namaUnitKerja": "Komp Penjualan Komersil",
+    "parentUnitKerja": "600000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "C90010",
+    "namaUnitKerja": "SMdy Penjualan Komersil",
+    "parentUnitKerja": "C90000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "C91000",
+    "namaUnitKerja": "Dep Penjualan Produk Pengembangan",
+    "parentUnitKerja": "C90000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "C91100",
+    "namaUnitKerja": "Bag Perkebunan I",
+    "parentUnitKerja": "C91000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "C91110",
+    "namaUnitKerja": "Staf Perkebunan I",
+    "parentUnitKerja": "C91100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C91120",
+    "namaUnitKerja": "Staf Key Account",
+    "parentUnitKerja": "C91100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C91200",
+    "namaUnitKerja": "Bag Perkebunan II",
+    "parentUnitKerja": "C91000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "C91210",
+    "namaUnitKerja": "Staf Perkebunan II",
+    "parentUnitKerja": "C91200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C91220",
+    "namaUnitKerja": "Staf Key Account",
+    "parentUnitKerja": "C91200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C91300",
+    "namaUnitKerja": "Staf Dep Penjualan Produk Pengembangan",
+    "parentUnitKerja": "C91000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C92000",
+    "namaUnitKerja": "Dep Penjualan Produk Non Pupuk & Jasa",
+    "parentUnitKerja": "C90000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "C92100",
+    "namaUnitKerja": "Bag Industri I",
+    "parentUnitKerja": "C92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "C92110",
+    "namaUnitKerja": "Staf Industri I",
+    "parentUnitKerja": "C92100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C92120",
+    "namaUnitKerja": "Staf Key Account",
+    "parentUnitKerja": "C92100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C92200",
+    "namaUnitKerja": "Bag Industri II",
+    "parentUnitKerja": "C92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "C92210",
+    "namaUnitKerja": "Staf Industri II",
+    "parentUnitKerja": "C92200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C92220",
+    "namaUnitKerja": "Staf Key Account",
+    "parentUnitKerja": "C92200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C92300",
+    "namaUnitKerja": "Bag Jasa",
+    "parentUnitKerja": "C92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "C92310",
+    "namaUnitKerja": "Staf Jasa",
+    "parentUnitKerja": "C92300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C92400",
+    "namaUnitKerja": "Staf Dep Penjualan Produk Non Pupuk & Jasa",
+    "parentUnitKerja": "C92000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C93000",
+    "namaUnitKerja": "Dep Penjualan Pupuk Korporasi",
+    "parentUnitKerja": "C90000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "C93010",
+    "namaUnitKerja": "Staf Key Account",
+    "parentUnitKerja": "C93000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C93100",
+    "namaUnitKerja": "Staf Ekspor",
+    "parentUnitKerja": "C93000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C93200",
+    "namaUnitKerja": "Staf Dep Penjualan Pupuk Korporasi",
+    "parentUnitKerja": "C93000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "C94000",
+    "namaUnitKerja": "Staf Komp. Penjualan Komersil",
+    "parentUnitKerja": "C90000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D00000",
+    "namaUnitKerja": "Direktorat Keuangan dan Umum",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Direktorat"
+  },
+  {
+    "unitKerja": "D50000",
+    "namaUnitKerja": "Komp Administrasi Keuangan",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "D50010",
+    "namaUnitKerja": "SMdy Administrasi Keuangan",
+    "parentUnitKerja": "D50000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D51000",
+    "namaUnitKerja": "Dep Keuangan",
+    "parentUnitKerja": "D50000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D51100",
+    "namaUnitKerja": "Bag Penagihan",
+    "parentUnitKerja": "D51000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D51110",
+    "namaUnitKerja": "Si Administrasi Piutang & Faktur Penjualan",
+    "parentUnitKerja": "D51100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D51111",
+    "namaUnitKerja": "Ru Penerbitan Faktur Penjualan",
+    "parentUnitKerja": "D51110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D51112",
+    "namaUnitKerja": "Ru Administrasi Piutang",
+    "parentUnitKerja": "D51110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D51113",
+    "namaUnitKerja": "Staf Penagihan",
+    "parentUnitKerja": "D51110",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D51200",
+    "namaUnitKerja": "Bag Perbendaharaan",
+    "parentUnitKerja": "D51000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D51210",
+    "namaUnitKerja": "Si Pembayaran",
+    "parentUnitKerja": "D51200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D51211",
+    "namaUnitKerja": "Ru Penjadwalan Pembayaran",
+    "parentUnitKerja": "D51210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D51212",
+    "namaUnitKerja": "Ru Hutang Bank & Valas",
+    "parentUnitKerja": "D51210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D51220",
+    "namaUnitKerja": "Staf Pengelolaan Dana & Adm. Keuangan Proyek",
+    "parentUnitKerja": "D51210",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D51300",
+    "namaUnitKerja": "Bag Pajak & Asuransi",
+    "parentUnitKerja": "D51000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D51310",
+    "namaUnitKerja": "Staf Pajak",
+    "parentUnitKerja": "D51300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D51320",
+    "namaUnitKerja": "Si Asuransi",
+    "parentUnitKerja": "D51300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D51321",
+    "namaUnitKerja": "Ru Asuransi Jiwa & Sosial",
+    "parentUnitKerja": "D51320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D51322",
+    "namaUnitKerja": "Ru Asuransi Kerugian",
+    "parentUnitKerja": "D51320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D51400",
+    "namaUnitKerja": "Staf Dep Keuangan",
+    "parentUnitKerja": "D51000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D54000",
+    "namaUnitKerja": "Dep Akuntansi Biaya",
+    "parentUnitKerja": "D50000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D54100",
+    "namaUnitKerja": "Bag Pelaporan & Alokasi Biaya",
+    "parentUnitKerja": "D54000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D54110",
+    "namaUnitKerja": "Staf Pelaporan & Alokasi Biaya",
+    "parentUnitKerja": "D54100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D54200",
+    "namaUnitKerja": "Bag Proyeksi & Pengendalian HPP",
+    "parentUnitKerja": "D54000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D54210",
+    "namaUnitKerja": "Staf Proyeksi & Pengendalian HPP",
+    "parentUnitKerja": "D54200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D54300",
+    "namaUnitKerja": "Staf Dep Akuntansi Biaya",
+    "parentUnitKerja": "D54000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D55000",
+    "namaUnitKerja": "Dep Pelaporan Keuangan & Manajemen",
+    "parentUnitKerja": "D50000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D55100",
+    "namaUnitKerja": "Bag Pelaporan Keuangan",
+    "parentUnitKerja": "D55000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D55110",
+    "namaUnitKerja": "Staf Pelaporan Keuangan",
+    "parentUnitKerja": "D55100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D55120",
+    "namaUnitKerja": "Staf Aset & Persediaan",
+    "parentUnitKerja": "D55100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D55130",
+    "namaUnitKerja": "Staf Pelaporan & Evaluasi Hutang Piutang",
+    "parentUnitKerja": "D55100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D55200",
+    "namaUnitKerja": "Bag Penerimaan Tagihan",
+    "parentUnitKerja": "D55000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D55210",
+    "namaUnitKerja": "Si Tagihan Barang",
+    "parentUnitKerja": "D55200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D55211",
+    "namaUnitKerja": "Ru Uang Muka & Tagihan Barang",
+    "parentUnitKerja": "D55210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D55220",
+    "namaUnitKerja": "Si Tagihan Jasa",
+    "parentUnitKerja": "D55200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D55221",
+    "namaUnitKerja": "Ru Tagihan Jasa",
+    "parentUnitKerja": "D55220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D55300",
+    "namaUnitKerja": "Bag Analisa & Laporan Manajemen",
+    "parentUnitKerja": "D55000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D55310",
+    "namaUnitKerja": "Staf Analisa & Laporan Manajemen",
+    "parentUnitKerja": "D55300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D55400",
+    "namaUnitKerja": "Staf Dep Pelaporan Keuangan & Manajemen",
+    "parentUnitKerja": "D55000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D56000",
+    "namaUnitKerja": "Staf Komp. Adm Keuangan",
+    "parentUnitKerja": "D50000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D60000",
+    "namaUnitKerja": "Komp Perencanaan & Pengendalian Usaha",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "D60010",
+    "namaUnitKerja": "SMdy Perencanaan & Pengendalian Usaha",
+    "parentUnitKerja": "D60000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D63000",
+    "namaUnitKerja": "Dep Anggaran",
+    "parentUnitKerja": "D60000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D63100",
+    "namaUnitKerja": "Bag Penyusunan Anggaran",
+    "parentUnitKerja": "D63000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D63110",
+    "namaUnitKerja": "Si Penyusunan Anggaran Biaya & Investasi",
+    "parentUnitKerja": "D63100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D63111",
+    "namaUnitKerja": "Ru Penyusunan Anggaran Biaya & Investasi",
+    "parentUnitKerja": "D63110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D63120",
+    "namaUnitKerja": "Staf Penyusunan Laporan Keuangan RKAP",
+    "parentUnitKerja": "D63100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D63200",
+    "namaUnitKerja": "Bag Pengawasan Anggaran",
+    "parentUnitKerja": "D63000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D63210",
+    "namaUnitKerja": "Si Pengawasan Anggaran Biaya",
+    "parentUnitKerja": "D63200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D63211",
+    "namaUnitKerja": "Ru Pengawasan Anggaran Biaya",
+    "parentUnitKerja": "D63210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D63220",
+    "namaUnitKerja": "Si Pengawasan Anggaran Investasi",
+    "parentUnitKerja": "D63200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D63221",
+    "namaUnitKerja": "Ru Pengawasan Anggaran Investasi Rutin & Proyek",
+    "parentUnitKerja": "D63220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D63230",
+    "namaUnitKerja": "Si Pelaporan Anggaran",
+    "parentUnitKerja": "D63200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D63231",
+    "namaUnitKerja": "Ru Pelaporan Anggaran",
+    "parentUnitKerja": "D63230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D63400",
+    "namaUnitKerja": "Staf Dep Anggaran",
+    "parentUnitKerja": "D63000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D63500",
+    "namaUnitKerja": "Bag Pengendalian Bisnis",
+    "parentUnitKerja": "D63000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D63510",
+    "namaUnitKerja": "Staf Pengendalian Bisnis",
+    "parentUnitKerja": "D63500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D64000",
+    "namaUnitKerja": "Dep Portofolio Bisnis",
+    "parentUnitKerja": "D60000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D64100",
+    "namaUnitKerja": "Staf Portofolio Bisnis",
+    "parentUnitKerja": "D64000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D64200",
+    "namaUnitKerja": "Staf Dep Portofolio Bisnis",
+    "parentUnitKerja": "D64000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D65000",
+    "namaUnitKerja": "Staf Komp. Perencanaan & Pengendalian Usaha",
+    "parentUnitKerja": "D60000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D70000",
+    "namaUnitKerja": "Komp Sumber Daya Manusia",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "D70010",
+    "namaUnitKerja": "SMdy Sumber Daya Manusia",
+    "parentUnitKerja": "D70000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D72700",
+    "namaUnitKerja": "Staf Dep Pengembangan SDM Tugas Belajar",
+    "parentUnitKerja": "D72000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D74000",
+    "namaUnitKerja": "Staf Komp. Sumber Daya Manusia",
+    "parentUnitKerja": "D70000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D75000",
+    "namaUnitKerja": "Dep Pengembangan & Organisasi",
+    "parentUnitKerja": "D70000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D75100",
+    "namaUnitKerja": "Bag Pendidikan & Pelatihan",
+    "parentUnitKerja": "D75000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D75110",
+    "namaUnitKerja": "Staf Perencanaan & Evaluasi Program Diklat",
+    "parentUnitKerja": "D75100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D75120",
+    "namaUnitKerja": "Si Pengelolaan Pendidikan & Pelatihan Karyawan",
+    "parentUnitKerja": "D75100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D75121",
+    "namaUnitKerja": "Ru Pengelolaan Pendidikan & Pelatihan Karyawan",
+    "parentUnitKerja": "D75120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D75130",
+    "namaUnitKerja": "Si Pengelolaan Sertifikasi & Kerjasama Instansi",
+    "parentUnitKerja": "D75100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D75131",
+    "namaUnitKerja": "Ru Pengelolaan Sertifikasi & Kerjasama Instansi",
+    "parentUnitKerja": "D75130",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D75200",
+    "namaUnitKerja": "Staf Organisasi & Jabatan",
+    "parentUnitKerja": "D75000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D75300",
+    "namaUnitKerja": "Staf Manajemen Karir",
+    "parentUnitKerja": "D75000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D75400",
+    "namaUnitKerja": "Staf Perencanaan & Pengembangan Personil",
+    "parentUnitKerja": "D75000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D75500",
+    "namaUnitKerja": "Staf Dep Pengembangan & Organisasi",
+    "parentUnitKerja": "D75000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D75600",
+    "namaUnitKerja": "Staf Dep Pengembangan & Organisasi Tugas Belajar",
+    "parentUnitKerja": "D75000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76000",
+    "namaUnitKerja": "Dep Remunerasi & Hubungan Industrial",
+    "parentUnitKerja": "D70000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D76100",
+    "namaUnitKerja": "Bag Administrasi SDM & HRIS",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D76110",
+    "namaUnitKerja": "Si Administrasi",
+    "parentUnitKerja": "D76100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D76111",
+    "namaUnitKerja": "Ru Administrasi Kehadiran & Personil",
+    "parentUnitKerja": "D76110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D76120",
+    "namaUnitKerja": "Si Penggajian & Kesejahteraan",
+    "parentUnitKerja": "D76100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D76121",
+    "namaUnitKerja": "Ru Penggajian",
+    "parentUnitKerja": "D76120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D76122",
+    "namaUnitKerja": "Ru Kesejahteraan",
+    "parentUnitKerja": "D76120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D76123",
+    "namaUnitKerja": "Staf HRIS",
+    "parentUnitKerja": "D76120",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76200",
+    "namaUnitKerja": "Staf Hubungan Industrial",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76300",
+    "namaUnitKerja": "Staf Jasa Eksternal",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76400",
+    "namaUnitKerja": "Staf Remunerasi",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76500",
+    "namaUnitKerja": "Staf Rekrutmen & Manajemen Kinerja",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76600",
+    "namaUnitKerja": "Staf Dep Remunerasi & Hubungan Industrial",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76700",
+    "namaUnitKerja": "Staf Talent",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D76800",
+    "namaUnitKerja": "Staf Liaison Officer Penugasan",
+    "parentUnitKerja": "D76000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D77000",
+    "namaUnitKerja": "Dep Inovasi & Sistem Manajemen",
+    "parentUnitKerja": "D70000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D77100",
+    "namaUnitKerja": "Staf Manajemen Pengetahuan & Inovasi",
+    "parentUnitKerja": "D77000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D77200",
+    "namaUnitKerja": "Staf Pengembangan Sistem Manajemen",
+    "parentUnitKerja": "D77000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D77300",
+    "namaUnitKerja": "Staf Dep Inovasi & Sistem Manajemen",
+    "parentUnitKerja": "D77000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D80000",
+    "namaUnitKerja": "Komp Umum",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "D80010",
+    "namaUnitKerja": "SMdy Umum",
+    "parentUnitKerja": "D80000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81000",
+    "namaUnitKerja": "Dep Pelayanan Umum",
+    "parentUnitKerja": "D80000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D81010",
+    "namaUnitKerja": "Si Perwakilan Jakarta",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81011",
+    "namaUnitKerja": "Ru Keuangan",
+    "parentUnitKerja": "D81010",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81012",
+    "namaUnitKerja": "Staf Umum",
+    "parentUnitKerja": "D81010",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D81020",
+    "namaUnitKerja": "Staf Si Perwakilan Jakarta",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D81100",
+    "namaUnitKerja": "Bag Transport",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D81110",
+    "namaUnitKerja": "Si Administrasi Kendaraan",
+    "parentUnitKerja": "D81100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81111",
+    "namaUnitKerja": "Ru Administrasi Kendaraan",
+    "parentUnitKerja": "D81110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81120",
+    "namaUnitKerja": "Si Operasional",
+    "parentUnitKerja": "D81100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81121",
+    "namaUnitKerja": "Ru Operasional Shift",
+    "parentUnitKerja": "D81120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81122",
+    "namaUnitKerja": "Ru Operasional Non Shift",
+    "parentUnitKerja": "D81120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81123",
+    "namaUnitKerja": "Ru Perawatan Kendaraan",
+    "parentUnitKerja": "D81120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81200",
+    "namaUnitKerja": "Bag Sarana & Perlengkapan",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D81210",
+    "namaUnitKerja": "Si Sarana Perumahan, Wisma & Konsumsi",
+    "parentUnitKerja": "D81200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81211",
+    "namaUnitKerja": "Ru Sarana Perumahan & Wisma",
+    "parentUnitKerja": "D81210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81212",
+    "namaUnitKerja": "Ru Konsumsi",
+    "parentUnitKerja": "D81210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81220",
+    "namaUnitKerja": "Si Fasil Perkap Kary,Fasum/OR & Kebersihan",
+    "parentUnitKerja": "D81200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81221",
+    "namaUnitKerja": "Ru Fasilitas Perlengkapan Karyawan, Fasum/OR",
+    "parentUnitKerja": "D81220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81222",
+    "namaUnitKerja": "Ru Penghijauan",
+    "parentUnitKerja": "D81220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81223",
+    "namaUnitKerja": "Ru Kebersihan Area",
+    "parentUnitKerja": "D81220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81230",
+    "namaUnitKerja": "Si Perbekalan Kantor & Tata Ruang",
+    "parentUnitKerja": "D81200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81231",
+    "namaUnitKerja": "Ru Inventaris Kantor & ATK",
+    "parentUnitKerja": "D81230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81232",
+    "namaUnitKerja": "Ru Tata Ruang Perkantoran",
+    "parentUnitKerja": "D81230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81300",
+    "namaUnitKerja": "Bag Pemeliharaan Kawasan",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D81310",
+    "namaUnitKerja": "Si Sipil",
+    "parentUnitKerja": "D81300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81311",
+    "namaUnitKerja": "Ru Sipil Gedung, Jalan & Dekorasi",
+    "parentUnitKerja": "D81310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81312",
+    "namaUnitKerja": "Ru Sipil Perumahan Dinas",
+    "parentUnitKerja": "D81310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81320",
+    "namaUnitKerja": "Si Bengkel",
+    "parentUnitKerja": "D81300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81321",
+    "namaUnitKerja": "Ru Pipa & Las",
+    "parentUnitKerja": "D81320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81322",
+    "namaUnitKerja": "Ru Mekanik & Pendingin",
+    "parentUnitKerja": "D81320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81330",
+    "namaUnitKerja": "Si Listrik, Instrumen & Sarana Telkom",
+    "parentUnitKerja": "D81300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D81331",
+    "namaUnitKerja": "Ru Listrik Perumahan & Perkantoran",
+    "parentUnitKerja": "D81330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81332",
+    "namaUnitKerja": "Ru Instrumen & Telkom",
+    "parentUnitKerja": "D81330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81333",
+    "namaUnitKerja": "Ru Pemancar, Sound System & Pagging",
+    "parentUnitKerja": "D81330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D81400",
+    "namaUnitKerja": "Bag Perencanaan & Pengendalian Aset",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D81410",
+    "namaUnitKerja": "Staf Rendal Pelayanan Umum",
+    "parentUnitKerja": "D81400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D81420",
+    "namaUnitKerja": "Staf Pengelolaan Administrasi & Pengawasan Aset",
+    "parentUnitKerja": "D81400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D81430",
+    "namaUnitKerja": "Staf Optimalisasi Aset",
+    "parentUnitKerja": "D81400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D81500",
+    "namaUnitKerja": "Staf Dep Pelayanan Umum",
+    "parentUnitKerja": "D81000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D82000",
+    "namaUnitKerja": "Dep Keamanan",
+    "parentUnitKerja": "D80000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D82100",
+    "namaUnitKerja": "Bag Satpam Pabrik",
+    "parentUnitKerja": "D82000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D82110",
+    "namaUnitKerja": "Si Satpam Zona I",
+    "parentUnitKerja": "D82100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82111",
+    "namaUnitKerja": "Ru Shift Satpam Zona I",
+    "parentUnitKerja": "D82110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82120",
+    "namaUnitKerja": "Si Satpam Zona II",
+    "parentUnitKerja": "D82100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82121",
+    "namaUnitKerja": "Ru Shift Satpam Zona II",
+    "parentUnitKerja": "D82120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82130",
+    "namaUnitKerja": "Si Satpam Zona III",
+    "parentUnitKerja": "D82100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82140",
+    "namaUnitKerja": "Si Satpam Zona IV",
+    "parentUnitKerja": "D82100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82150",
+    "namaUnitKerja": "Si Satpam Zona V",
+    "parentUnitKerja": "D82100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82200",
+    "namaUnitKerja": "Bag Satpam Kawasan",
+    "parentUnitKerja": "D82000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D82210",
+    "namaUnitKerja": "Si Satpam TUKS",
+    "parentUnitKerja": "D82200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82211",
+    "namaUnitKerja": "Ru Shift Satpam TUKS",
+    "parentUnitKerja": "D82210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82212",
+    "namaUnitKerja": "Ru Administrasi & Komunikasi",
+    "parentUnitKerja": "D82210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82220",
+    "namaUnitKerja": "Si Satpam Kawasan",
+    "parentUnitKerja": "D82200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82221",
+    "namaUnitKerja": "Ru Normal Day Satpam Kawasan",
+    "parentUnitKerja": "D82220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82222",
+    "namaUnitKerja": "Ru Satpam PA Babat & Lamongan",
+    "parentUnitKerja": "D82220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82223",
+    "namaUnitKerja": "Ru Satpam PA Gunung Sari & Kandangan",
+    "parentUnitKerja": "D82220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82300",
+    "namaUnitKerja": "Bag Operasional & Administrasi",
+    "parentUnitKerja": "D82000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D82301",
+    "namaUnitKerja": "Staf Seleksi E-KIB & KIKP",
+    "parentUnitKerja": "D82300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D82310",
+    "namaUnitKerja": "Staf Administrasi & Operasional",
+    "parentUnitKerja": "D82300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D82320",
+    "namaUnitKerja": "Staf Penyidik & Penyelidik",
+    "parentUnitKerja": "D82300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D82330",
+    "namaUnitKerja": "Si Security",
+    "parentUnitKerja": "D82300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D82331",
+    "namaUnitKerja": "Ru Shift Security",
+    "parentUnitKerja": "D82330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D82400",
+    "namaUnitKerja": "Staf Dep Keamanan",
+    "parentUnitKerja": "D82000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D83000",
+    "namaUnitKerja": "Dep Corporate Social Responsibility",
+    "parentUnitKerja": "D80000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D83100",
+    "namaUnitKerja": "Bag Kemitraan",
+    "parentUnitKerja": "D83000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D83110",
+    "namaUnitKerja": "Staf Kemitraan",
+    "parentUnitKerja": "D83100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D83200",
+    "namaUnitKerja": "Bag Bina Lingkungan",
+    "parentUnitKerja": "D83000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D83210",
+    "namaUnitKerja": "Staf Bina Lingkungan",
+    "parentUnitKerja": "D83200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D83300",
+    "namaUnitKerja": "Bag Administrasi Keuangan",
+    "parentUnitKerja": "D83000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D83310",
+    "namaUnitKerja": "Si Administrasi keuangan",
+    "parentUnitKerja": "D83300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D83311",
+    "namaUnitKerja": "Ru Keuangan",
+    "parentUnitKerja": "D83310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D83312",
+    "namaUnitKerja": "Ru Akuntansi",
+    "parentUnitKerja": "D83310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D83320",
+    "namaUnitKerja": "Staf Perencanaan & Pengendalian CSR",
+    "parentUnitKerja": "D83300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D83400",
+    "namaUnitKerja": "Staf Dep Corporate Social Responsibility",
+    "parentUnitKerja": "D83000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D84000",
+    "namaUnitKerja": "Staf Komp. Umum",
+    "parentUnitKerja": "D80000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D90000",
+    "namaUnitKerja": "Komp Teknik",
+    "parentUnitKerja": "D00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "D91000",
+    "namaUnitKerja": "Dep Pengadaan Barang",
+    "parentUnitKerja": "D90000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D91100",
+    "namaUnitKerja": "Bag Pengadaan BB, BD & BP",
+    "parentUnitKerja": "D91000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D91110",
+    "namaUnitKerja": "Staf Pengadaan Bahan Baku & Barang Dagangan",
+    "parentUnitKerja": "D91100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91120",
+    "namaUnitKerja": "Staf Pengadaan Bahan Penolong & Utilitas",
+    "parentUnitKerja": "D91100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91200",
+    "namaUnitKerja": "Bag Pengadaan Peralatan Pabrik & TA",
+    "parentUnitKerja": "D91000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D91210",
+    "namaUnitKerja": "Staf Pengadaan Peralatan Mekanik",
+    "parentUnitKerja": "D91200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91220",
+    "namaUnitKerja": "Staf Pengadaan Peralatan Listrik & Instrumen",
+    "parentUnitKerja": "D91200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91230",
+    "namaUnitKerja": "Staf Pengadaan Peralatan Bengkel",
+    "parentUnitKerja": "D91200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91300",
+    "namaUnitKerja": "Bag Pengadaan Brg Umum, Prasarana & Invs",
+    "parentUnitKerja": "D91000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D91310",
+    "namaUnitKerja": "Staf Pengadaan Brg Kantor & Keb Personel",
+    "parentUnitKerja": "D91300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91320",
+    "namaUnitKerja": "Staf Pengadaan Pralatan Brg Safety,Ins,Riset & Lab",
+    "parentUnitKerja": "D91300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91330",
+    "namaUnitKerja": "Staf Pengadaan Brg Invs Pabrik & Non Pabrik",
+    "parentUnitKerja": "D91300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91400",
+    "namaUnitKerja": "Bag Expediting, Perijinan & Pelaporan",
+    "parentUnitKerja": "D91000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D91410",
+    "namaUnitKerja": "Staf Cust & Perijinan BB, BD, BP & Spare Part",
+    "parentUnitKerja": "D91400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91420",
+    "namaUnitKerja": "Staf Monitoring, Eval & Pelaporan Proses Daan Brg",
+    "parentUnitKerja": "D91400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D91500",
+    "namaUnitKerja": "Staf Dep Pengadaan Barang",
+    "parentUnitKerja": "D91000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92000",
+    "namaUnitKerja": "Dep Pengadaan Jasa",
+    "parentUnitKerja": "D90000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D92100",
+    "namaUnitKerja": "Bag Daan Jasa Invs Rutin EPC, Pb & Non Pb",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92110",
+    "namaUnitKerja": "Staf Pengadaan Jasa EPC, Pabrik & Non Pabrik",
+    "parentUnitKerja": "D92100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92120",
+    "namaUnitKerja": "Staf Manj Vendor, Sist E-Proc & Lapor Daan Jasa",
+    "parentUnitKerja": "D92100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92200",
+    "namaUnitKerja": "Bag Pengadaan Jasa Pabrik & Prasarana",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92210",
+    "namaUnitKerja": "Staf Pengadaan Jasa Pabrik",
+    "parentUnitKerja": "D92200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92220",
+    "namaUnitKerja": "Staf Pengadaan Jasa Prasarana",
+    "parentUnitKerja": "D92200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92300",
+    "namaUnitKerja": "Bag Pengadaan Jasa Lain-lain",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92310",
+    "namaUnitKerja": "Staf Pengadaan Jasa Distribusi & Pemasaran",
+    "parentUnitKerja": "D92300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92320",
+    "namaUnitKerja": "Staf Pengadaan Jasa Umum",
+    "parentUnitKerja": "D92300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92400",
+    "namaUnitKerja": "Staf Dep Pengadaan Jasa",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92500",
+    "namaUnitKerja": "Bag IT Services",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92510",
+    "namaUnitKerja": "Staf IT Services",
+    "parentUnitKerja": "D92500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92600",
+    "namaUnitKerja": "Bag IT Business Partner",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92610",
+    "namaUnitKerja": "Staf IT Business Partner",
+    "parentUnitKerja": "D92600",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92700",
+    "namaUnitKerja": "Bag IT Infrastructure",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92710",
+    "namaUnitKerja": "Staf IT Infrastructure",
+    "parentUnitKerja": "D92700",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92800",
+    "namaUnitKerja": "Staf IT Planning & Control",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92900",
+    "namaUnitKerja": "Bag Pengadaan Jasa Invs Rutin & Manajemen Vendor",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92910",
+    "namaUnitKerja": "Staf Pengadaan Jasa Invs Rutin & Manajemen Vendor",
+    "parentUnitKerja": "D92900",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92A00",
+    "namaUnitKerja": "Bag Pengadaan Jasa Pabrik",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92A10",
+    "namaUnitKerja": "Staf Pengadaan Jasa Pabrik",
+    "parentUnitKerja": "D92A00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92B00",
+    "namaUnitKerja": "Bag Pengadaan Jasa Non Pabrik",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92B10",
+    "namaUnitKerja": "Staf Pengadaan Jasa Non Pabrik",
+    "parentUnitKerja": "D92B00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D92C00",
+    "namaUnitKerja": "Bag Pengadaan Jasa Distribusi & Pemasaran",
+    "parentUnitKerja": "D92000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D92C10",
+    "namaUnitKerja": "Staf Pengadaan Jasa Distribusi & Pemasaran",
+    "parentUnitKerja": "D92C00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93000",
+    "namaUnitKerja": "Dep Perencanaan & Penerimaan Barang/Jasa",
+    "parentUnitKerja": "D90000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "D93100",
+    "namaUnitKerja": "Bag Perencanaan Barang",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D93110",
+    "namaUnitKerja": "Staf Canmat Pabrik I",
+    "parentUnitKerja": "D93100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93120",
+    "namaUnitKerja": "Staf Canmat Pabrik II",
+    "parentUnitKerja": "D93100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93130",
+    "namaUnitKerja": "Staf Canmat Pabrik III",
+    "parentUnitKerja": "D93100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93140",
+    "namaUnitKerja": "Staf Canmat ROL & Insurance",
+    "parentUnitKerja": "D93100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93150",
+    "namaUnitKerja": "Staf Canmat BB/BD/BP",
+    "parentUnitKerja": "D93100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93160",
+    "namaUnitKerja": "Staf Canmat Non Pabrik & Umum",
+    "parentUnitKerja": "D93100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93200",
+    "namaUnitKerja": "Bag Perencanaan Jasa",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D93210",
+    "namaUnitKerja": "Staf Perencanaan Jasa Pabrik",
+    "parentUnitKerja": "D93200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93220",
+    "namaUnitKerja": "Staf Perencanaan Jasa Non Pabrik & Investasi",
+    "parentUnitKerja": "D93200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93230",
+    "namaUnitKerja": "Staf Perencanaan Jasa Umum & Distribusi",
+    "parentUnitKerja": "D93200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93300",
+    "namaUnitKerja": "Bag Identifikasi & Evaluasi Teknis",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D93310",
+    "namaUnitKerja": "Staf Mekanik & Bengkel",
+    "parentUnitKerja": "D93300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93320",
+    "namaUnitKerja": "Staf Listrik, Instrumen, Produksi & Umum",
+    "parentUnitKerja": "D93300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93330",
+    "namaUnitKerja": "Staf Administrasi & Pelaporan TB/Data",
+    "parentUnitKerja": "D93300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93400",
+    "namaUnitKerja": "Bag Penerimaan Barang/Jasa",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D93410",
+    "namaUnitKerja": "Staf Penerimaan Material",
+    "parentUnitKerja": "D93400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93420",
+    "namaUnitKerja": "Staf Penerimaan Jasa Invs Pb, Har Pb & Umum",
+    "parentUnitKerja": "D93400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93500",
+    "namaUnitKerja": "Bag Gudang Material",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D93510",
+    "namaUnitKerja": "Si Gudang Barang ROL & Umum",
+    "parentUnitKerja": "D93500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D93511",
+    "namaUnitKerja": "Ru Pipa & Fiting",
+    "parentUnitKerja": "D93510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93512",
+    "namaUnitKerja": "Ru Listrik/Instrumen, Bearing & V-Belt",
+    "parentUnitKerja": "D93510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93520",
+    "namaUnitKerja": "Si Gudang Spare Part & Bahan Bakar",
+    "parentUnitKerja": "D93500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D93521",
+    "namaUnitKerja": "Ru Spare Part Pabrik, BBM, Oli, Soda & Surplus",
+    "parentUnitKerja": "D93520",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93530",
+    "namaUnitKerja": "Si Gudang Karung, Bahan Kimia & BP",
+    "parentUnitKerja": "D93500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D93531",
+    "namaUnitKerja": "Ru Karung & Penyablonan",
+    "parentUnitKerja": "D93530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93532",
+    "namaUnitKerja": "Ru B. Penolong, B. Kimia, Gas & Katalis",
+    "parentUnitKerja": "D93530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93600",
+    "namaUnitKerja": "Bag Lola Gd Bhn Baku & Transport Int",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "D93610",
+    "namaUnitKerja": "Si Gudang BB/BP Produksi",
+    "parentUnitKerja": "D93600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D93611",
+    "namaUnitKerja": "Ru Ops Gudang BB/BP Produksi",
+    "parentUnitKerja": "D93610",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93620",
+    "namaUnitKerja": "Si Gudang Bahan Baku Internal",
+    "parentUnitKerja": "D93600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "D93621",
+    "namaUnitKerja": "Ru Shift Gudang Bhn Baku Internal",
+    "parentUnitKerja": "D93620",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "D93630",
+    "namaUnitKerja": "Staf Adm BB/BD/Batubara & Transport Int",
+    "parentUnitKerja": "D93600",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D93700",
+    "namaUnitKerja": "Staf Dep Perencanaan & Penerimaan Barang/Jasa",
+    "parentUnitKerja": "D93000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "D94000",
+    "namaUnitKerja": "Staf Komp Teknik",
+    "parentUnitKerja": "D90000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E00000",
+    "namaUnitKerja": "Direktorat Operasi dan Produksi",
+    "parentUnitKerja": "200000",
+    "orgLevelName": "Direktorat"
+  },
+  {
+    "unitKerja": "E10000",
+    "namaUnitKerja": "Komp Mitra Bisnis",
+    "parentUnitKerja": "E00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "E11000",
+    "namaUnitKerja": "Dep Administrasi Pemasaran",
+    "parentUnitKerja": "E10000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E11100",
+    "namaUnitKerja": "Bag Sarana Prasarana Distribusi & PSO",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11110",
+    "namaUnitKerja": "Staf Sarana Prasarana Distribusi & PSO",
+    "parentUnitKerja": "E11100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11200",
+    "namaUnitKerja": "Bag Administrasi Join Cost",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11210",
+    "namaUnitKerja": "Staf Administrasi Join Cost",
+    "parentUnitKerja": "E11200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11300",
+    "namaUnitKerja": "Bag Pelaporan & Penagihan PSO",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11310",
+    "namaUnitKerja": "Staf Pelaporan & Penagihan PSO",
+    "parentUnitKerja": "E11300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11400",
+    "namaUnitKerja": "Staf Dep Administrasi Pemasaran",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11500",
+    "namaUnitKerja": "Bag Sales NAD-Sumut",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11510",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11520",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11600",
+    "namaUnitKerja": "Bag Sales Sumbar, Riau, Kep. Riau",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11610",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11600",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11620",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11600",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11700",
+    "namaUnitKerja": "Bag Sales Sumsel, Babel, Jambi",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11710",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11700",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11720",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11700",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11800",
+    "namaUnitKerja": "Bag Sales Bengkulu, Lampung",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11810",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11800",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11820",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11800",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11900",
+    "namaUnitKerja": "Bag Sales Banten, DKI, Jabar I",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11910",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11900",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11920",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11900",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11A00",
+    "namaUnitKerja": "Bag Sales Jabar II",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11A10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11A00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11A20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11A00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11B00",
+    "namaUnitKerja": "Bag Sales Jateng I",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11B10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11B00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11B20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11B00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11C00",
+    "namaUnitKerja": "Bag Sales Jateng II, DIY",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11C10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11C00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11C20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11C00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11D00",
+    "namaUnitKerja": "Bag Sales Jatim I",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11D10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11D00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11D20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11D00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11E00",
+    "namaUnitKerja": "Bag Sales Jatim II",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11E10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11E00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11E20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11E00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11F00",
+    "namaUnitKerja": "Bag Sales Bali, NTB, NTT",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11F10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11F00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11F20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11F00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11G00",
+    "namaUnitKerja": "Bag Sales Kalimantan",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11G10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11G00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11G20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11G00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11H00",
+    "namaUnitKerja": "Bag Sales Sulawesi I",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11H10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11H00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11H20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11H00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11I00",
+    "namaUnitKerja": "Bag Sales Sulawesi II",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11I10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11I00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11I20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11I00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11J00",
+    "namaUnitKerja": "Bag Sales Maluku, Malut, Papua, Pabar",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E11J10",
+    "namaUnitKerja": "Staf Operasional",
+    "parentUnitKerja": "E11J00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11J20",
+    "namaUnitKerja": "Staf Penjualan",
+    "parentUnitKerja": "E11J00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11K00",
+    "namaUnitKerja": "Staf Marketing Support Jatim",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E11L00",
+    "namaUnitKerja": "Staf Marketing Support Bali - Nusra",
+    "parentUnitKerja": "E11000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12000",
+    "namaUnitKerja": "Dep Administrasi & Penjualan",
+    "parentUnitKerja": "E10000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E12100",
+    "namaUnitKerja": "Staf Adm & Penj Produk Spesifik Jasa",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12200",
+    "namaUnitKerja": "Staf Adm NPK,Prod Lain & Penj Prod Spesifik Pupuk",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12300",
+    "namaUnitKerja": "Staf Adm Amoniak,Urea & Penj Prod Spsfk Non Ppk",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12400",
+    "namaUnitKerja": "Staf Dep Administrasi & Penjualan",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12500",
+    "namaUnitKerja": "Bag Terminal I PKG",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12510",
+    "namaUnitKerja": "Si Gudang Urea I & ZA",
+    "parentUnitKerja": "E12500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12511",
+    "namaUnitKerja": "Ru Shift Gudang Urea I",
+    "parentUnitKerja": "E12510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12512",
+    "namaUnitKerja": "Ru Shift Gudang ZA",
+    "parentUnitKerja": "E12510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12520",
+    "namaUnitKerja": "Si Gudang Urea II",
+    "parentUnitKerja": "E12500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12521",
+    "namaUnitKerja": "Ru Shift Gudang Urea II",
+    "parentUnitKerja": "E12520",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12530",
+    "namaUnitKerja": "Si Gudang Non Pupuk & Timbangan I/II/III",
+    "parentUnitKerja": "E12500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12531",
+    "namaUnitKerja": "Ru Shift Gd Prod Non Pupuk & Pengembangan",
+    "parentUnitKerja": "E12530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12532",
+    "namaUnitKerja": "Ru Timbangan I & III",
+    "parentUnitKerja": "E12530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12533",
+    "namaUnitKerja": "Ru Timbangan II",
+    "parentUnitKerja": "E12530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12540",
+    "namaUnitKerja": "Staf Candal Terminal I",
+    "parentUnitKerja": "E12500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12600",
+    "namaUnitKerja": "Bag Terminal II PKG",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12610",
+    "namaUnitKerja": "Si Gudang Fosfat & Phonska Area I",
+    "parentUnitKerja": "E12600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12611",
+    "namaUnitKerja": "Ru Shift Gudang Fosfat & Phonska Area I",
+    "parentUnitKerja": "E12610",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12620",
+    "namaUnitKerja": "Si Gudang Phonska Area II",
+    "parentUnitKerja": "E12600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12621",
+    "namaUnitKerja": "Ru Shift Gudang Phonska Area II",
+    "parentUnitKerja": "E12620",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12630",
+    "namaUnitKerja": "Si Gudang Phonska Area III",
+    "parentUnitKerja": "E12600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12631",
+    "namaUnitKerja": "Ru Shift Gudang Phonska Area III",
+    "parentUnitKerja": "E12630",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12640",
+    "namaUnitKerja": "Si Gudang Multiguna & Timbangan IV/V",
+    "parentUnitKerja": "E12600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12641",
+    "namaUnitKerja": "Ru Shift Gudang Multiguna Area I",
+    "parentUnitKerja": "E12640",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12642",
+    "namaUnitKerja": "Ru Shift Gudang Multiguna Area II",
+    "parentUnitKerja": "E12640",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12643",
+    "namaUnitKerja": "Ru Timbangan IV & V",
+    "parentUnitKerja": "E12640",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12650",
+    "namaUnitKerja": "Si Gudang Curah & AIF3",
+    "parentUnitKerja": "E12600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E12651",
+    "namaUnitKerja": "Ru Shift Gudang Curah & AIF3",
+    "parentUnitKerja": "E12650",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E12660",
+    "namaUnitKerja": "Staf Candal Terminal II",
+    "parentUnitKerja": "E12600",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12700",
+    "namaUnitKerja": "Bag Ops Logistik Aceh & Sumut",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12710",
+    "namaUnitKerja": "Staf Ops Logistik Aceh & Sumut",
+    "parentUnitKerja": "E12700",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12800",
+    "namaUnitKerja": "Bag Ops Logistik Lampung & Bengkulu",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12810",
+    "namaUnitKerja": "Staf Ops Logistik Lampung & Bengkulu",
+    "parentUnitKerja": "E12800",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12900",
+    "namaUnitKerja": "Bag Ops Logistik Jateng & DIY 2",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12910",
+    "namaUnitKerja": "Staf Ops Logistik Jateng & DIY 2",
+    "parentUnitKerja": "E12900",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12A00",
+    "namaUnitKerja": "Bag Ops Logistik Wilayah I",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12A10",
+    "namaUnitKerja": "Staf Ops Logistik Wilayah I",
+    "parentUnitKerja": "E12A00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12B00",
+    "namaUnitKerja": "Bag Ops Logistik Wilayah II",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12B10",
+    "namaUnitKerja": "Staf Ops Logistik Wilayah II",
+    "parentUnitKerja": "E12B00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12C00",
+    "namaUnitKerja": "Bag Ops Logistik Jatim",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12C10",
+    "namaUnitKerja": "Staf Ops Logistik Jatim",
+    "parentUnitKerja": "E12C00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12D00",
+    "namaUnitKerja": "Bag Administrasi Logistik Region 6",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12D10",
+    "namaUnitKerja": "Staf Administrasi Logistik Region 6",
+    "parentUnitKerja": "E12D00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E12E00",
+    "namaUnitKerja": "Bag Ops Log GTLO, Sulut, Malut, Mal, Papua, Pabar",
+    "parentUnitKerja": "E12000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E12E10",
+    "namaUnitKerja": "Staf Ops Log GTLO, Sulut, Malut, Mal, Papua, Pabar",
+    "parentUnitKerja": "E12E00",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13000",
+    "namaUnitKerja": "Dep Pengelolaan Mitra Produksi",
+    "parentUnitKerja": "E10000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E13100",
+    "namaUnitKerja": "Bag Kemitraan Petroganik",
+    "parentUnitKerja": "E13000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E13110",
+    "namaUnitKerja": "Staf Kemitraan Petroganik Jatim",
+    "parentUnitKerja": "E13100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13120",
+    "namaUnitKerja": "Staf Kemitraan Petroganik Jateng & Luar Jawa",
+    "parentUnitKerja": "E13100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13130",
+    "namaUnitKerja": "Staf Administrasi Petroganik",
+    "parentUnitKerja": "E13100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13200",
+    "namaUnitKerja": "Bag Kemitraan Non Petroganik",
+    "parentUnitKerja": "E13000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E13201",
+    "namaUnitKerja": "Staf Produksi Mixtro",
+    "parentUnitKerja": "E13200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13210",
+    "namaUnitKerja": "Staf Kemitraan NPK Cluster",
+    "parentUnitKerja": "E13200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13220",
+    "namaUnitKerja": "Staf Kemitraan Pupuk Organik Cair",
+    "parentUnitKerja": "E13200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13230",
+    "namaUnitKerja": "Staf Kemitraan Produk Hayati & UPBB",
+    "parentUnitKerja": "E13200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E13300",
+    "namaUnitKerja": "Staf Dep Pengelolaan Mitra Produksi",
+    "parentUnitKerja": "E13000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14000",
+    "namaUnitKerja": "Dep Pengelolaan Pelabuhan",
+    "parentUnitKerja": "E10000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E14100",
+    "namaUnitKerja": "Bag Candal Pelabuhan",
+    "parentUnitKerja": "E14000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E14110",
+    "namaUnitKerja": "Staf Candal Pelabuhan",
+    "parentUnitKerja": "E14100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14200",
+    "namaUnitKerja": "Bag Administrasi Pelabuhan",
+    "parentUnitKerja": "E14000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E14210",
+    "namaUnitKerja": "Staf Pelayanan Pelabuhan",
+    "parentUnitKerja": "E14200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14220",
+    "namaUnitKerja": "Si Pengawasan Bongkar Muat Pelabuhan",
+    "parentUnitKerja": "E14200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14221",
+    "namaUnitKerja": "Ru Shift Pengawasan Bongkar Muat",
+    "parentUnitKerja": "E14220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14222",
+    "namaUnitKerja": "Staf Shift Pengawasan Bongkar Muat Domestik",
+    "parentUnitKerja": "E14220",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14223",
+    "namaUnitKerja": "Staf Shift Pengawasan Bongkar Muat Internasional 1",
+    "parentUnitKerja": "E14220",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14224",
+    "namaUnitKerja": "Staf Shift Pengawasan Bongkar Muat Internasional 2",
+    "parentUnitKerja": "E14220",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14300",
+    "namaUnitKerja": "Bag Operasional Pelabuhan",
+    "parentUnitKerja": "E14000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E14310",
+    "namaUnitKerja": "Staf Operasional Pelabuhan",
+    "parentUnitKerja": "E14300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14320",
+    "namaUnitKerja": "Si Shift Ops Pelabuhan",
+    "parentUnitKerja": "E14300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14321",
+    "namaUnitKerja": "Ru Shift Ops Equipment Pelabuhan",
+    "parentUnitKerja": "E14320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14322",
+    "namaUnitKerja": "Ru Shift Ops Equipment 1 Pelabuhan",
+    "parentUnitKerja": "E14320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14323",
+    "namaUnitKerja": "Ru Shift Ops Equipment 2 Pelabuhan",
+    "parentUnitKerja": "E14320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14324",
+    "namaUnitKerja": "Ru Shift Ops Liquid Conveyor System",
+    "parentUnitKerja": "E14320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14325",
+    "namaUnitKerja": "Staf Panel & Reporting",
+    "parentUnitKerja": "E14320",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14330",
+    "namaUnitKerja": "Si Shift Ops Liquid & Conv Pelabuhan",
+    "parentUnitKerja": "E14300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14331",
+    "namaUnitKerja": "Ru Shift Ops Liquid & Conv System",
+    "parentUnitKerja": "E14330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14332",
+    "namaUnitKerja": "Staf Panel & Reporting",
+    "parentUnitKerja": "E14330",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14400",
+    "namaUnitKerja": "Bag Pemeliharaan Pelabuhan",
+    "parentUnitKerja": "E14000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E14401",
+    "namaUnitKerja": "Ru Shift Har Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E14402",
+    "namaUnitKerja": "Staf Shift Har Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14410",
+    "namaUnitKerja": "Si Las & Sipil Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14411",
+    "namaUnitKerja": "Staf Las & Sipil Pelabuhan",
+    "parentUnitKerja": "E14410",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14420",
+    "namaUnitKerja": "Si Mekanik Equipment Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14421",
+    "namaUnitKerja": "Staf Mekanik Equipment Pelabuhan",
+    "parentUnitKerja": "E14420",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14430",
+    "namaUnitKerja": "Si Mekanik Conv Piping Dermaga Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14431",
+    "namaUnitKerja": "Staf Mekanik Conv Piping Dermaga Pelabuhan",
+    "parentUnitKerja": "E14430",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14440",
+    "namaUnitKerja": "Si Listrik Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14441",
+    "namaUnitKerja": "Staf Listrik",
+    "parentUnitKerja": "E14440",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14450",
+    "namaUnitKerja": "Si Instrumen Pelabuhan",
+    "parentUnitKerja": "E14400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E14451",
+    "namaUnitKerja": "Staf Instrumen",
+    "parentUnitKerja": "E14450",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E14500",
+    "namaUnitKerja": "Staf Dep Pengelolaan Pelabuhan",
+    "parentUnitKerja": "E14000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E15000",
+    "namaUnitKerja": "Staf Komp Mitra Bisnis",
+    "parentUnitKerja": "E10000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20000",
+    "namaUnitKerja": "Komp Perencanaan & Pengendalian Pemeliharaan",
+    "parentUnitKerja": "E00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "E20100",
+    "namaUnitKerja": "Bag Candal Pemeliharaan I",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20110",
+    "namaUnitKerja": "Planner Amoniak",
+    "parentUnitKerja": "E20100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20120",
+    "namaUnitKerja": "Planner Urea",
+    "parentUnitKerja": "E20100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20130",
+    "namaUnitKerja": "Planner Utilitas & Supporting",
+    "parentUnitKerja": "E20100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20140",
+    "namaUnitKerja": "Planner ZA & Bagging",
+    "parentUnitKerja": "E20100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20150",
+    "namaUnitKerja": "Staf Planner PA",
+    "parentUnitKerja": "E20100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20200",
+    "namaUnitKerja": "Bag Candal Pemeliharaan II A",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20210",
+    "namaUnitKerja": "Planner",
+    "parentUnitKerja": "E20200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20220",
+    "namaUnitKerja": "Scheduler",
+    "parentUnitKerja": "E20200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20230",
+    "namaUnitKerja": "Material Coordinator",
+    "parentUnitKerja": "E20200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20240",
+    "namaUnitKerja": "Cost Controller",
+    "parentUnitKerja": "E20200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20300",
+    "namaUnitKerja": "Bag Candal Pemeliharaan II B",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20310",
+    "namaUnitKerja": "Planner",
+    "parentUnitKerja": "E20300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20320",
+    "namaUnitKerja": "Scheduler",
+    "parentUnitKerja": "E20300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20330",
+    "namaUnitKerja": "Material Coordinator",
+    "parentUnitKerja": "E20300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20340",
+    "namaUnitKerja": "Cost Controller",
+    "parentUnitKerja": "E20300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20400",
+    "namaUnitKerja": "Bag Candal Pemeliharaan III A",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20410",
+    "namaUnitKerja": "Staf Candal Wilayah I A",
+    "parentUnitKerja": "E20400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20420",
+    "namaUnitKerja": "Staf Candal Wilayah II A",
+    "parentUnitKerja": "E20400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20430",
+    "namaUnitKerja": "Staf Candal Wilayah III A",
+    "parentUnitKerja": "E20400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20500",
+    "namaUnitKerja": "Bag Candal Pemeliharaan III B",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20510",
+    "namaUnitKerja": "Staf Candal Wilayah I B",
+    "parentUnitKerja": "E20500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20520",
+    "namaUnitKerja": "Staf Candal Wilayah II B",
+    "parentUnitKerja": "E20500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20530",
+    "namaUnitKerja": "Staf Candal Wilayah III B",
+    "parentUnitKerja": "E20500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20600",
+    "namaUnitKerja": "Bag TA Pemeliharaan I",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20610",
+    "namaUnitKerja": "Planner TA Amoniak I A & I B",
+    "parentUnitKerja": "E20600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20620",
+    "namaUnitKerja": "Planner TA Urea IA & I B, Bagging",
+    "parentUnitKerja": "E20600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20630",
+    "namaUnitKerja": "Planner Utilitas,ZA I/III & Investasi",
+    "parentUnitKerja": "E20600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E20700",
+    "namaUnitKerja": "Bag TA Pemeliharaan II",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20710",
+    "namaUnitKerja": "Staf TA Pemeliharaan II",
+    "parentUnitKerja": "E20700",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E20800",
+    "namaUnitKerja": "Bag TA Pemeliharaan III",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E20810",
+    "namaUnitKerja": "Staf TA Pemeliharaan III",
+    "parentUnitKerja": "E20800",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21000",
+    "namaUnitKerja": "Dep Inspeksi Teknik",
+    "parentUnitKerja": "E20000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E21100",
+    "namaUnitKerja": "Staf Inspeksi Teknik Pabrik I",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21200",
+    "namaUnitKerja": "Staf Inspeksi Teknik Pabrik II",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21300",
+    "namaUnitKerja": "Staf Inspeksi Teknik Pabrik III",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21400",
+    "namaUnitKerja": "Staf Inspeksi Teknik Khusus",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21500",
+    "namaUnitKerja": "Staf Inspeksi Teknik Korosi & Metalurgi",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21600",
+    "namaUnitKerja": "Staf Inspeksi Teknik Pelabuhan",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E21700",
+    "namaUnitKerja": "Staf Dep Inspeksi Teknik",
+    "parentUnitKerja": "E21000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E22000",
+    "namaUnitKerja": "Dep Kehandalan Pabrik & Interkoneksi Listrik",
+    "parentUnitKerja": "E20000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E22100",
+    "namaUnitKerja": "Bag Reliability I",
+    "parentUnitKerja": "E22000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E22110",
+    "namaUnitKerja": "Staf Reliability I",
+    "parentUnitKerja": "E22100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E22200",
+    "namaUnitKerja": "Bag Reliability II",
+    "parentUnitKerja": "E22000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E22210",
+    "namaUnitKerja": "Staf Reliability II",
+    "parentUnitKerja": "E22200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E22300",
+    "namaUnitKerja": "Bag Reliability III",
+    "parentUnitKerja": "E22000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E22310",
+    "namaUnitKerja": "Staf Reliability III",
+    "parentUnitKerja": "E22300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E22400",
+    "namaUnitKerja": "Bag Interkoneksi Listrik",
+    "parentUnitKerja": "E22000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E22410",
+    "namaUnitKerja": "Si Shift Interkoneksi Listrik",
+    "parentUnitKerja": "E22400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E22411",
+    "namaUnitKerja": "Ru Shift Interkoneksi Listrik",
+    "parentUnitKerja": "E22410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E22420",
+    "namaUnitKerja": "Staf Inspeksi & Reliability Interkoneksi Listrik",
+    "parentUnitKerja": "E22400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E22430",
+    "namaUnitKerja": "Si Listrik & Instrumen",
+    "parentUnitKerja": "E22400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E22431",
+    "namaUnitKerja": "Ru Listrik",
+    "parentUnitKerja": "E22430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E22432",
+    "namaUnitKerja": "Ru Instrumen",
+    "parentUnitKerja": "E22430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E22500",
+    "namaUnitKerja": "Staf Dep Kehandalan Pabrik & Interkoneksi Listrik",
+    "parentUnitKerja": "E22000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E23000",
+    "namaUnitKerja": "Staf Komp Perencanaan & Pengendalian Pemeliharaan",
+    "parentUnitKerja": "E20000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E30000",
+    "namaUnitKerja": "Komp Jasa Pelayanan Pabrik",
+    "parentUnitKerja": "E00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "E31000",
+    "namaUnitKerja": "Dep Jasa Bengkel & Fabrikasi",
+    "parentUnitKerja": "E30000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E31100",
+    "namaUnitKerja": "Bag Fabrikasi",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E31110",
+    "namaUnitKerja": "Si Mesin",
+    "parentUnitKerja": "E31100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31111",
+    "namaUnitKerja": "Ru Mesin 1",
+    "parentUnitKerja": "E31110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31112",
+    "namaUnitKerja": "Ru Mesin 2",
+    "parentUnitKerja": "E31110",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31120",
+    "namaUnitKerja": "Si Las",
+    "parentUnitKerja": "E31100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31121",
+    "namaUnitKerja": "Ru Las 1",
+    "parentUnitKerja": "E31120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31122",
+    "namaUnitKerja": "Ru Las 2",
+    "parentUnitKerja": "E31120",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31130",
+    "namaUnitKerja": "Si Shift Mesin/Fabrikasi",
+    "parentUnitKerja": "E31100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31131",
+    "namaUnitKerja": "Ru Shift Mesin/Fabrikasi",
+    "parentUnitKerja": "E31130",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31200",
+    "namaUnitKerja": "Bag Alat Berat",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E31210",
+    "namaUnitKerja": "Si Ops Alat Berat Pabrik",
+    "parentUnitKerja": "E31200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31211",
+    "namaUnitKerja": "Ru Shift Ops Pabrik II A & II B",
+    "parentUnitKerja": "E31210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31212",
+    "namaUnitKerja": "Ru Shift Ops Pabrik I, III A & III B",
+    "parentUnitKerja": "E31210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31220",
+    "namaUnitKerja": "Si Ops Alat Berat Non Pabrik",
+    "parentUnitKerja": "E31200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31221",
+    "namaUnitKerja": "Ru Ops Alat Angkat Angkut",
+    "parentUnitKerja": "E31220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31222",
+    "namaUnitKerja": "Ru Ops Non Alat Angkat Angkut",
+    "parentUnitKerja": "E31220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31230",
+    "namaUnitKerja": "Si Ops Alat Berat Bahan Baku & Non Pupuk",
+    "parentUnitKerja": "E31200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31231",
+    "namaUnitKerja": "Ru Ops Alat Berat Bahan Baku/Non Pupuk",
+    "parentUnitKerja": "E31230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31232",
+    "namaUnitKerja": "Ru Ops Open Storage",
+    "parentUnitKerja": "E31230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31240",
+    "namaUnitKerja": "Si Pemeliharaan Alat Berat",
+    "parentUnitKerja": "E31200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31241",
+    "namaUnitKerja": "Ru Bengkel Alat Berat",
+    "parentUnitKerja": "E31240",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31242",
+    "namaUnitKerja": "Ru Listrik & Repair Body",
+    "parentUnitKerja": "E31240",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31300",
+    "namaUnitKerja": "Bag Bengkel I",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E31310",
+    "namaUnitKerja": "Si Bengkel Las I A",
+    "parentUnitKerja": "E31300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31311",
+    "namaUnitKerja": "Ru SU/Util/ZA I-III/Pantong I A /Loading NH3",
+    "parentUnitKerja": "E31310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31312",
+    "namaUnitKerja": "Ru Ammonia I A/Urea I A/ASP & CO2",
+    "parentUnitKerja": "E31310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31320",
+    "namaUnitKerja": "Si Bengkel Las I B",
+    "parentUnitKerja": "E31300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31321",
+    "namaUnitKerja": "Ru Ammonia I B/Utilitas & Off Site Area",
+    "parentUnitKerja": "E31320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31322",
+    "namaUnitKerja": "Ru Urea I B/Pantong I B",
+    "parentUnitKerja": "E31320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31330",
+    "namaUnitKerja": "Si Bengkel Sipil I",
+    "parentUnitKerja": "E31300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31331",
+    "namaUnitKerja": "Ru Bengkel Sipil",
+    "parentUnitKerja": "E31330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31340",
+    "namaUnitKerja": "Si Bengkel Mesin I",
+    "parentUnitKerja": "E31300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31341",
+    "namaUnitKerja": "Ru Shift Mesin I",
+    "parentUnitKerja": "E31340",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31400",
+    "namaUnitKerja": "Bag Bengkel II A",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E31410",
+    "namaUnitKerja": "Si Bengkel Lap Phonska II/III & Bagging",
+    "parentUnitKerja": "E31400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31411",
+    "namaUnitKerja": "Ru Bengkel Lap Phonska II/III & Bagging",
+    "parentUnitKerja": "E31410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31420",
+    "namaUnitKerja": "Si Bengkel Lap Phonska I, PF I & Bagging",
+    "parentUnitKerja": "E31400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31421",
+    "namaUnitKerja": "Ru Bengkel Lap Phonska I, PF I & Bagging",
+    "parentUnitKerja": "E31420",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31430",
+    "namaUnitKerja": "Si Sipil & NL II A",
+    "parentUnitKerja": "E31400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31431",
+    "namaUnitKerja": "Ru Sipil II A",
+    "parentUnitKerja": "E31430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31432",
+    "namaUnitKerja": "Ru NL II A",
+    "parentUnitKerja": "E31430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31500",
+    "namaUnitKerja": "Bag Bengkel II B",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E31510",
+    "namaUnitKerja": "Si Bengkel Lapangan NPK I/II/III/IV",
+    "parentUnitKerja": "E31500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31511",
+    "namaUnitKerja": "Ru Kel Lapangan NPK I/II/III/IV",
+    "parentUnitKerja": "E31510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31520",
+    "namaUnitKerja": "Si Bengkel Lap Phonska IV, Util, ZK I/II",
+    "parentUnitKerja": "E31500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31521",
+    "namaUnitKerja": "Ru Kel Lap Phonska IV, Util, ZK I/II",
+    "parentUnitKerja": "E31520",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31530",
+    "namaUnitKerja": "Si Sipil & NL II B",
+    "parentUnitKerja": "E31500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31531",
+    "namaUnitKerja": "Ru Sipil II B",
+    "parentUnitKerja": "E31530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31532",
+    "namaUnitKerja": "Ru NL II B",
+    "parentUnitKerja": "E31530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31540",
+    "namaUnitKerja": "Si Bengkel Mesin",
+    "parentUnitKerja": "E31500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31541",
+    "namaUnitKerja": "Ru Bengkel Mesin ND",
+    "parentUnitKerja": "E31540",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31542",
+    "namaUnitKerja": "Ru Shift Bengkel Mesin",
+    "parentUnitKerja": "E31540",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31600",
+    "namaUnitKerja": "Bag Bengkel III",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E31610",
+    "namaUnitKerja": "Si Bengkel Las III A",
+    "parentUnitKerja": "E31600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31611",
+    "namaUnitKerja": "Ru Lap Bengkel Las III A",
+    "parentUnitKerja": "E31610",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31620",
+    "namaUnitKerja": "Si Bengkel Mesin III",
+    "parentUnitKerja": "E31600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31621",
+    "namaUnitKerja": "Ru Shift Mesin III",
+    "parentUnitKerja": "E31620",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31630",
+    "namaUnitKerja": "Si Bengkel Sipil III A",
+    "parentUnitKerja": "E31600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31631",
+    "namaUnitKerja": "Ru Bengkel Sipil III A",
+    "parentUnitKerja": "E31630",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31640",
+    "namaUnitKerja": "Si Bengkel Non Logam III",
+    "parentUnitKerja": "E31600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31641",
+    "namaUnitKerja": "Ru Bengkel Non Logam III",
+    "parentUnitKerja": "E31640",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31650",
+    "namaUnitKerja": "Si Bengkel Las III B",
+    "parentUnitKerja": "E31600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31651",
+    "namaUnitKerja": "Ru Bengkel Las III B",
+    "parentUnitKerja": "E31650",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31660",
+    "namaUnitKerja": "Si Bengkel Sipil III B",
+    "parentUnitKerja": "E31600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E31661",
+    "namaUnitKerja": "Ru Bengkel Sipil III B",
+    "parentUnitKerja": "E31660",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E31700",
+    "namaUnitKerja": "Staf Dep Jasa Bengkel & Fabrikasi",
+    "parentUnitKerja": "E31000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E32000",
+    "namaUnitKerja": "Dep Pemeliharaan I",
+    "parentUnitKerja": "E30000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E32200",
+    "namaUnitKerja": "Bag Mekanik I",
+    "parentUnitKerja": "E32000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E32201",
+    "namaUnitKerja": "Ru Shift Mekanik I",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32210",
+    "namaUnitKerja": "Si Mekanik Utilitas",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32211",
+    "namaUnitKerja": "Ru Utilitas I",
+    "parentUnitKerja": "E32210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32212",
+    "namaUnitKerja": "Ru Utilitas II",
+    "parentUnitKerja": "E32210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32213",
+    "namaUnitKerja": "Ru Mekanik Babat",
+    "parentUnitKerja": "E32210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32214",
+    "namaUnitKerja": "Ru Mekanik Gunung Sari",
+    "parentUnitKerja": "E32210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32220",
+    "namaUnitKerja": "Si Mekanik NH3 I A",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32221",
+    "namaUnitKerja": "Ru Mekanik NH3 I A I",
+    "parentUnitKerja": "E32220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32222",
+    "namaUnitKerja": "Ru Mekanik NH3 I A II",
+    "parentUnitKerja": "E32220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32230",
+    "namaUnitKerja": "Si Mekanik Urea I A",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32231",
+    "namaUnitKerja": "Ru Mekanik Urea I",
+    "parentUnitKerja": "E32230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32232",
+    "namaUnitKerja": "Ru Mekanik Urea II",
+    "parentUnitKerja": "E32230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32240",
+    "namaUnitKerja": "Si Mekanik ZA I/III & Pelumasan",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32241",
+    "namaUnitKerja": "Ru ZA I/III",
+    "parentUnitKerja": "E32240",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32242",
+    "namaUnitKerja": "Ru Pelumasan",
+    "parentUnitKerja": "E32240",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32250",
+    "namaUnitKerja": "Si Mekanik Supporting & Bagging I",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32251",
+    "namaUnitKerja": "Ru Supporting",
+    "parentUnitKerja": "E32250",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32252",
+    "namaUnitKerja": "Ru Bagging I",
+    "parentUnitKerja": "E32250",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32260",
+    "namaUnitKerja": "Si Mekanik NH3 I B",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32261",
+    "namaUnitKerja": "Ru Gas Preparation & Purification I B",
+    "parentUnitKerja": "E32260",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32262",
+    "namaUnitKerja": "Ru Compressor & NH3 Synt. I B",
+    "parentUnitKerja": "E32260",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32270",
+    "namaUnitKerja": "Si Mekanik Urea I B",
+    "parentUnitKerja": "E32200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32271",
+    "namaUnitKerja": "Ru Urea I- I B",
+    "parentUnitKerja": "E32270",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32272",
+    "namaUnitKerja": "Ru Urea II- I B",
+    "parentUnitKerja": "E32270",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32300",
+    "namaUnitKerja": "Bag Listrik I",
+    "parentUnitKerja": "E32000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E32301",
+    "namaUnitKerja": "Ru Shift Listrik I",
+    "parentUnitKerja": "E32300",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32310",
+    "namaUnitKerja": "Si Listrik Utilitas",
+    "parentUnitKerja": "E32300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32311",
+    "namaUnitKerja": "Ru Pembangkit Listrik & Shop",
+    "parentUnitKerja": "E32310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32312",
+    "namaUnitKerja": "Ru Pengolah Air & Off Site",
+    "parentUnitKerja": "E32310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32313",
+    "namaUnitKerja": "Ru Listrik Babat",
+    "parentUnitKerja": "E32310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32314",
+    "namaUnitKerja": "Ru Listrik Gunung Sari",
+    "parentUnitKerja": "E32310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32320",
+    "namaUnitKerja": "Si Listrik NH3/Urea I A",
+    "parentUnitKerja": "E32300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32321",
+    "namaUnitKerja": "Ru NH3",
+    "parentUnitKerja": "E32320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32322",
+    "namaUnitKerja": "Ru Urea",
+    "parentUnitKerja": "E32320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32330",
+    "namaUnitKerja": "Si Listrik ZA I/III & Shop",
+    "parentUnitKerja": "E32300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32331",
+    "namaUnitKerja": "Ru ZA I/III",
+    "parentUnitKerja": "E32330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32332",
+    "namaUnitKerja": "Ru Shop/Ware House",
+    "parentUnitKerja": "E32330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32340",
+    "namaUnitKerja": "Si Listrik NH3/Urea I B",
+    "parentUnitKerja": "E32300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32341",
+    "namaUnitKerja": "Ru NH3",
+    "parentUnitKerja": "E32330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32342",
+    "namaUnitKerja": "Ru Urea & Bagging Urea",
+    "parentUnitKerja": "E32330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32343",
+    "namaUnitKerja": "Ru Bagging & Supporting",
+    "parentUnitKerja": "E32330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32400",
+    "namaUnitKerja": "Bag Instrumen I",
+    "parentUnitKerja": "E32000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E32401",
+    "namaUnitKerja": "Ru Shift Instrumen I",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32410",
+    "namaUnitKerja": "Si Instrumen Utilitas I A & ZA I/III",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32411",
+    "namaUnitKerja": "Ru Instrumen Utilitas I A",
+    "parentUnitKerja": "E32410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32412",
+    "namaUnitKerja": "Ru Instrumen ZA I/III",
+    "parentUnitKerja": "E32410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32413",
+    "namaUnitKerja": "Ru Instrumen PA Babat",
+    "parentUnitKerja": "E32410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32414",
+    "namaUnitKerja": "Ru Instrumen PA Gunung Sari",
+    "parentUnitKerja": "E32410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32420",
+    "namaUnitKerja": "Si NH3 & Metering",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32421",
+    "namaUnitKerja": "Ru NH3 & Metering",
+    "parentUnitKerja": "E32420",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32430",
+    "namaUnitKerja": "Si Urea I A & Bagging I A",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32431",
+    "namaUnitKerja": "Ru Urea I A",
+    "parentUnitKerja": "E32430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32432",
+    "namaUnitKerja": "Ru Bagging I A",
+    "parentUnitKerja": "E32430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32440",
+    "namaUnitKerja": "Si Utilitas I B/NH3 I B",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32441",
+    "namaUnitKerja": "Ru Utilitas I B",
+    "parentUnitKerja": "E32440",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32442",
+    "namaUnitKerja": "Ru NH3 I B",
+    "parentUnitKerja": "E32440",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32450",
+    "namaUnitKerja": "Si Urea I B/Bagging I B",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32451",
+    "namaUnitKerja": "Ru Urea I B",
+    "parentUnitKerja": "E32450",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32452",
+    "namaUnitKerja": "Ru Bagging I B",
+    "parentUnitKerja": "E32450",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32460",
+    "namaUnitKerja": "Si DCS, Analyzer & Shop",
+    "parentUnitKerja": "E32400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E32461",
+    "namaUnitKerja": "Ru DCS, Analyzer & Shop",
+    "parentUnitKerja": "E32460",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E32500",
+    "namaUnitKerja": "Staf Dep Pemeliharaan I",
+    "parentUnitKerja": "E32000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E33000",
+    "namaUnitKerja": "Dep Pemeliharaan II",
+    "parentUnitKerja": "E30000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E33010",
+    "namaUnitKerja": "Si Shift Pemeliharaan II A",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33020",
+    "namaUnitKerja": "Si Shift Pemeliharaan II B",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33300",
+    "namaUnitKerja": "Bag Mekanik II A",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E33301",
+    "namaUnitKerja": "Ru Shift Mekanik Har II A",
+    "parentUnitKerja": "E33300",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33310",
+    "namaUnitKerja": "Si Mekanik Phonska II/III & Bagging",
+    "parentUnitKerja": "E33300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33311",
+    "namaUnitKerja": "Ru Mekanik Phonska II/III & Bagging",
+    "parentUnitKerja": "E33310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33320",
+    "namaUnitKerja": "Si Mekanik PF I & Bagging PF I",
+    "parentUnitKerja": "E33300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33321",
+    "namaUnitKerja": "Ru Mekanik PF I & Bagging PF I",
+    "parentUnitKerja": "E33320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33330",
+    "namaUnitKerja": "Si Mekanik Phonska I & Bagging Phonska I",
+    "parentUnitKerja": "E33300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33331",
+    "namaUnitKerja": "Ru Mekanik Phonska I & Bagging Phonska I",
+    "parentUnitKerja": "E33330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33400",
+    "namaUnitKerja": "Bag Mekanik II B",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E33401",
+    "namaUnitKerja": "Ru Shift Mekanik Har II B",
+    "parentUnitKerja": "E33400",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33410",
+    "namaUnitKerja": "Si Mekanik NPK I/II/III/IV",
+    "parentUnitKerja": "E33400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33411",
+    "namaUnitKerja": "Ru NPK I/II/III/IV",
+    "parentUnitKerja": "E33410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33420",
+    "namaUnitKerja": "Si Mekanik Phonska IV",
+    "parentUnitKerja": "E33400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33421",
+    "namaUnitKerja": "Ru Mekanik Phonska IV",
+    "parentUnitKerja": "E33420",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33430",
+    "namaUnitKerja": "Si Mekanik Utilitas ZK I/II",
+    "parentUnitKerja": "E33400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33431",
+    "namaUnitKerja": "Ru Mekanik Utilitas & ZK",
+    "parentUnitKerja": "E33430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33500",
+    "namaUnitKerja": "Bag Listrik II",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E33501",
+    "namaUnitKerja": "Ru Shift Listrik II A",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33502",
+    "namaUnitKerja": "Ru Shift Listrik II B",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33503",
+    "namaUnitKerja": "Ru Bagging Listrik II",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33510",
+    "namaUnitKerja": "Si Listrik NPK Phonska IV & NPK II/III/IV",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33511",
+    "namaUnitKerja": "Ru Listrik NPK Phonska IV & NPK II/III/IV",
+    "parentUnitKerja": "E33510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33520",
+    "namaUnitKerja": "Si Listrik Utilitas, NPK I & ZK I/II",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33521",
+    "namaUnitKerja": "Ru Listrik Utilitas, NPK I & ZK I/II",
+    "parentUnitKerja": "E33520",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33530",
+    "namaUnitKerja": "Si Listrik Phonska II/III & Bagging",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33531",
+    "namaUnitKerja": "Ru Listrik Phonska II/III & Bagging",
+    "parentUnitKerja": "E33530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33540",
+    "namaUnitKerja": "Si Listrik Phonska I, PF I & Bagging",
+    "parentUnitKerja": "E33500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33541",
+    "namaUnitKerja": "Ru Listrik Phonska I, PF I & Bagging",
+    "parentUnitKerja": "E33540",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33600",
+    "namaUnitKerja": "Bag Instrumen II",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E33601",
+    "namaUnitKerja": "Ru Shift Instrumen II A",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33602",
+    "namaUnitKerja": "Ru Shift Instrumen II B",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33603",
+    "namaUnitKerja": "Ru Bagging Instrumen II",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33610",
+    "namaUnitKerja": "Si Instrumen NPK Phonska IV & NPK II/III/IV",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33611",
+    "namaUnitKerja": "Ru Instrumen NPK Phonska IV & NPK II/III/IV",
+    "parentUnitKerja": "E33610",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33620",
+    "namaUnitKerja": "Si Instrumen Utilitas, NPK I & ZK I/II",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33621",
+    "namaUnitKerja": "Ru Instrumen Utilitas, NPK I & ZK I/II",
+    "parentUnitKerja": "E33620",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33630",
+    "namaUnitKerja": "Si Instrumen Phonska II/III & Bagging",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33631",
+    "namaUnitKerja": "Ru Instrumen Phonska II/III & Bagging",
+    "parentUnitKerja": "E33630",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33640",
+    "namaUnitKerja": "Si Instrumen Phonska I, PF I & Bagging",
+    "parentUnitKerja": "E33600",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E33641",
+    "namaUnitKerja": "Ru Instrumen Phonska I, PF I & Bagging",
+    "parentUnitKerja": "E33640",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E33700",
+    "namaUnitKerja": "Staf Dep Pemeliharaan II",
+    "parentUnitKerja": "E33000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E34000",
+    "namaUnitKerja": "Dep Pemeliharaan III",
+    "parentUnitKerja": "E30000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E34010",
+    "namaUnitKerja": "Si Shift Pemeliharaan III",
+    "parentUnitKerja": "E34000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34200",
+    "namaUnitKerja": "Bag Mekanik III A",
+    "parentUnitKerja": "E34000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E34201",
+    "namaUnitKerja": "Ru Shift Mekanik III",
+    "parentUnitKerja": "E34200",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34210",
+    "namaUnitKerja": "Si Mekanik SA I/SU I/ET I",
+    "parentUnitKerja": "E34200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34211",
+    "namaUnitKerja": "Ru Mekanik SA I/SU I/ET I",
+    "parentUnitKerja": "E34210",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34220",
+    "namaUnitKerja": "Si Mekanik PA I",
+    "parentUnitKerja": "E34200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34221",
+    "namaUnitKerja": "Ru Mekanik PA I",
+    "parentUnitKerja": "E34220",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34230",
+    "namaUnitKerja": "Si Mekanik ZA II",
+    "parentUnitKerja": "E34200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34231",
+    "namaUnitKerja": "Ru Mekanik ZA II",
+    "parentUnitKerja": "E34230",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34300",
+    "namaUnitKerja": "Bag Mekanik III B",
+    "parentUnitKerja": "E34000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E34310",
+    "namaUnitKerja": "Si Mekanik SA II/SU II/ET II",
+    "parentUnitKerja": "E34300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34311",
+    "namaUnitKerja": "Ru Mekanik SA II/SU II/ET II",
+    "parentUnitKerja": "E34310",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34320",
+    "namaUnitKerja": "Si Mekanik PA II",
+    "parentUnitKerja": "E34300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34321",
+    "namaUnitKerja": "Ru Mekanik PA II",
+    "parentUnitKerja": "E34320",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34330",
+    "namaUnitKerja": "Si Mek AIF3/KK, Purif I/II, Shop & Pelumas",
+    "parentUnitKerja": "E34300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34331",
+    "namaUnitKerja": "Ru Mek AIF3/KK, Purif I/II, Shop & Pelumas",
+    "parentUnitKerja": "E34330",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34340",
+    "namaUnitKerja": "Si Mekanik UBB",
+    "parentUnitKerja": "E34300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34341",
+    "namaUnitKerja": "Ru Mekanik UBB",
+    "parentUnitKerja": "E34340",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34400",
+    "namaUnitKerja": "Bag Listrik III",
+    "parentUnitKerja": "E34000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E34401",
+    "namaUnitKerja": "Ru Shift Listrik III",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34410",
+    "namaUnitKerja": "Si Listrik SA I/SU I/ET I",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34411",
+    "namaUnitKerja": "Ru Listrik SA I/SU I/ET I",
+    "parentUnitKerja": "E34410",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34420",
+    "namaUnitKerja": "Si Listrik PA I",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34421",
+    "namaUnitKerja": "Ru Listrik PA I",
+    "parentUnitKerja": "E34420",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34430",
+    "namaUnitKerja": "Si Listrik AIF3/Kalsinasi Kapur,Purif I/II",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34431",
+    "namaUnitKerja": "Ru Listrik AIF3/Kalsinasi Kapur, Purif I/II",
+    "parentUnitKerja": "E34430",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34440",
+    "namaUnitKerja": "Si Listrik Utilitas Batu Bara",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34441",
+    "namaUnitKerja": "Ru Listrik Utilitas Batu Bara",
+    "parentUnitKerja": "E34440",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34450",
+    "namaUnitKerja": "Si Listrik SA II/SU II/ET II",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34451",
+    "namaUnitKerja": "Ru Listrik SA II/SU II/ET II",
+    "parentUnitKerja": "E34450",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34460",
+    "namaUnitKerja": "Si Listrik PA II",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34461",
+    "namaUnitKerja": "Ru Listrik PA II",
+    "parentUnitKerja": "E34460",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34470",
+    "namaUnitKerja": "Si Listrik ZA II & Shop",
+    "parentUnitKerja": "E34400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34471",
+    "namaUnitKerja": "Ru Listrik ZA II & Shop",
+    "parentUnitKerja": "E34470",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34500",
+    "namaUnitKerja": "Bag Instrumen III",
+    "parentUnitKerja": "E34000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E34501",
+    "namaUnitKerja": "Ru Shift Instrumen III",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34510",
+    "namaUnitKerja": "Si Instrumen SA I/SU I/ET I",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34511",
+    "namaUnitKerja": "Ru Instrumen SA I/SU I/ET I",
+    "parentUnitKerja": "E34510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34520",
+    "namaUnitKerja": "Si Instrumen PA I",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34521",
+    "namaUnitKerja": "Ru Instrumen PA I",
+    "parentUnitKerja": "E34520",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34530",
+    "namaUnitKerja": "Si Instrumen AIF3/Kals Kapur, Purif I/II",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34531",
+    "namaUnitKerja": "Ru Instrumen AIF3/Kals Kapur, Purif I/II",
+    "parentUnitKerja": "E34530",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34540",
+    "namaUnitKerja": "Si Instrumen ZA II & Shop",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34541",
+    "namaUnitKerja": "Ru Instrumen ZA II & Shop",
+    "parentUnitKerja": "E34540",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34550",
+    "namaUnitKerja": "Si Instrumen Utilitas Batu Bara",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34551",
+    "namaUnitKerja": "Ru Instrumen Utilitas Batu Bara",
+    "parentUnitKerja": "E34550",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34560",
+    "namaUnitKerja": "Si Instrumen SA II/SU II/ET II",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34561",
+    "namaUnitKerja": "Ru Instrumen SA II/SU II/ET II",
+    "parentUnitKerja": "E34560",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34570",
+    "namaUnitKerja": "Si Instrumen PA II",
+    "parentUnitKerja": "E34500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E34571",
+    "namaUnitKerja": "Ru Instrumen PA II",
+    "parentUnitKerja": "E34570",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E34600",
+    "namaUnitKerja": "Staf Dep Pemeliharaan III",
+    "parentUnitKerja": "E34000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35000",
+    "namaUnitKerja": "Dep Teknik & Bisnis",
+    "parentUnitKerja": "E30000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E35100",
+    "namaUnitKerja": "Bag PPIC",
+    "parentUnitKerja": "E35000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E35110",
+    "namaUnitKerja": "Staf Perencanaan Pengadaan",
+    "parentUnitKerja": "E35100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35120",
+    "namaUnitKerja": "Staf Engineering",
+    "parentUnitKerja": "E35100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35130",
+    "namaUnitKerja": "Staf Penerimaan & QC",
+    "parentUnitKerja": "E35100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35200",
+    "namaUnitKerja": "Bag Rendal JPP",
+    "parentUnitKerja": "E35000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E35210",
+    "namaUnitKerja": "Staf Rendal Pemeliharaan JPP",
+    "parentUnitKerja": "E35200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35220",
+    "namaUnitKerja": "Staf Rendal Fabrikasi & Alat Berat",
+    "parentUnitKerja": "E35200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35300",
+    "namaUnitKerja": "Bag Keuangan & Umum",
+    "parentUnitKerja": "E35000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E35310",
+    "namaUnitKerja": "Staf Keuangan",
+    "parentUnitKerja": "E35300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35320",
+    "namaUnitKerja": "Staf Pengadaan",
+    "parentUnitKerja": "E35300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35330",
+    "namaUnitKerja": "Staf Pemasaran & Umum",
+    "parentUnitKerja": "E35300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E35400",
+    "namaUnitKerja": "Staf Dep Teknik & Bisnis",
+    "parentUnitKerja": "E35000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E36000",
+    "namaUnitKerja": "Dep Jasa Operasi & Pemeliharaan",
+    "parentUnitKerja": "E20000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E36100",
+    "namaUnitKerja": "Staf Jasa Operasi & Pemeliharaan",
+    "parentUnitKerja": "E36000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E37000",
+    "namaUnitKerja": "Staf Komp Jasa Pelayanan Pabrik",
+    "parentUnitKerja": "E30000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E40000",
+    "namaUnitKerja": "Komp Teknologi",
+    "parentUnitKerja": "E00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "E41000",
+    "namaUnitKerja": "Dep Lingkungan",
+    "parentUnitKerja": "E40000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E41100",
+    "namaUnitKerja": "Staf Pengendalian Pencemaran Air & Udara",
+    "parentUnitKerja": "E41000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E41200",
+    "namaUnitKerja": "Staf Pengelolaan Limbah B3 & B3",
+    "parentUnitKerja": "E41000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E41300",
+    "namaUnitKerja": "Staf Sistem & Teknologi Lingkungan",
+    "parentUnitKerja": "E41000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E41400",
+    "namaUnitKerja": "Staf Dep Lingkungan",
+    "parentUnitKerja": "E41000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E42000",
+    "namaUnitKerja": "Dep Keselamatan & Kesehatan Kerja",
+    "parentUnitKerja": "E40000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E42100",
+    "namaUnitKerja": "Bag Sistem & Kesehatan Kerja",
+    "parentUnitKerja": "E42000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E42110",
+    "namaUnitKerja": "Staf Sistem & Kesehatan Kerja",
+    "parentUnitKerja": "E42100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E42200",
+    "namaUnitKerja": "Bag KK Pabrik I & Kawasan",
+    "parentUnitKerja": "E42000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E42210",
+    "namaUnitKerja": "Staf KK Pabrik I & Kawasan",
+    "parentUnitKerja": "E42200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E42300",
+    "namaUnitKerja": "Bag KK Pabrik II & Pelabuhan",
+    "parentUnitKerja": "E42000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E42310",
+    "namaUnitKerja": "Staf KK Pabrik II & Pelabuhan",
+    "parentUnitKerja": "E42300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E42400",
+    "namaUnitKerja": "Bag KK Pabrik III",
+    "parentUnitKerja": "E42000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E42410",
+    "namaUnitKerja": "Staf KK Pabrik III",
+    "parentUnitKerja": "E42400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E42500",
+    "namaUnitKerja": "Bag Pemadam Kebakaran",
+    "parentUnitKerja": "E42000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E42510",
+    "namaUnitKerja": "Si Operasi Pemadam Kebakaran",
+    "parentUnitKerja": "E42500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E42511",
+    "namaUnitKerja": "Ru Shift Pemadam Kebakaran",
+    "parentUnitKerja": "E42510",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E42520",
+    "namaUnitKerja": "Si Perawatan Pemadam Kebakaran",
+    "parentUnitKerja": "E42500",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E42521",
+    "namaUnitKerja": "Ru Perawatan Pemadam Kebakaran",
+    "parentUnitKerja": "E42520",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E42600",
+    "namaUnitKerja": "Staf Dep Keselamatan & Kesehatan Kerja",
+    "parentUnitKerja": "E42000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E43000",
+    "namaUnitKerja": "Dep Perencanaan Produksi & Pengelolaan Energi",
+    "parentUnitKerja": "E40000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E43100",
+    "namaUnitKerja": "Staf Pengelolaan Energi",
+    "parentUnitKerja": "E43000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E43200",
+    "namaUnitKerja": "Staf Pengendalian Operasi",
+    "parentUnitKerja": "E43000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E43300",
+    "namaUnitKerja": "Bag Rendal Pabrik I",
+    "parentUnitKerja": "E43000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E43310",
+    "namaUnitKerja": "Staf Rendal Produksi Pabrik I",
+    "parentUnitKerja": "E43300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E43400",
+    "namaUnitKerja": "Bag Rendal Pabrik II",
+    "parentUnitKerja": "E43000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E43410",
+    "namaUnitKerja": "Staf Rendal Produksi Pabrik II",
+    "parentUnitKerja": "E43400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E43500",
+    "namaUnitKerja": "Bag Rendal Pabrik III",
+    "parentUnitKerja": "E43000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E43510",
+    "namaUnitKerja": "Staf Rendal Produksi Pabrik III",
+    "parentUnitKerja": "E43500",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E43600",
+    "namaUnitKerja": "Staf Dep Perencanaan Produksi & Lola Energi",
+    "parentUnitKerja": "E43000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44000",
+    "namaUnitKerja": "Dep Proses & Pengendalian Kualitas",
+    "parentUnitKerja": "E40000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E44100",
+    "namaUnitKerja": "Bag Laboratorium Uji Kimia",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E44110",
+    "namaUnitKerja": "Staf Uji Bahan Masuk",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44120",
+    "namaUnitKerja": "Staf Uji Produk",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44130",
+    "namaUnitKerja": "Staf Penelitian & Kalibrasi",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44140",
+    "namaUnitKerja": "Staf Uji Limbah",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44150",
+    "namaUnitKerja": "Staf Pengelolaan Bahan Kimia & Alat",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44160",
+    "namaUnitKerja": "Staf Uji Sistem & Mutu",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44170",
+    "namaUnitKerja": "Si Uji Limbah",
+    "parentUnitKerja": "E44100",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44171",
+    "namaUnitKerja": "Ru Uji Limbah Cair",
+    "parentUnitKerja": "E44170",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E44172",
+    "namaUnitKerja": "Ru Uji Padat & Emisi",
+    "parentUnitKerja": "E44170",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E44200",
+    "namaUnitKerja": "Bag Labotarorium Pabrik I",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E44201",
+    "namaUnitKerja": "Staf ND Lab Pabrik I",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44202",
+    "namaUnitKerja": "Ru ND Laboratorium Pabrik I",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E44210",
+    "namaUnitKerja": "Si Shift Lab Pabrik I A",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44211",
+    "namaUnitKerja": "Staf Shift Lab Pabrik I A",
+    "parentUnitKerja": "E44210",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44220",
+    "namaUnitKerja": "Si ND Lab Pabrik I B",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44230",
+    "namaUnitKerja": "Si Shift Lab Pabrik I B",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44231",
+    "namaUnitKerja": "Staf Shift Lab Pabrik I B",
+    "parentUnitKerja": "E44230",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44240",
+    "namaUnitKerja": "Staf Shift Laboratorium Pabrik I A",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44250",
+    "namaUnitKerja": "Staf Shift Laboratorium Pabrik I B",
+    "parentUnitKerja": "E44200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44300",
+    "namaUnitKerja": "Bag Labotarorium Pabrik II",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E44301",
+    "namaUnitKerja": "Staf ND Lab Pabrik II",
+    "parentUnitKerja": "E44300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44302",
+    "namaUnitKerja": "Ru ND Laboratorium Pabrik II",
+    "parentUnitKerja": "E44300",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E44310",
+    "namaUnitKerja": "Si Shift Lab Pabrik II A",
+    "parentUnitKerja": "E44300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44311",
+    "namaUnitKerja": "Staf Shift Lab Pabrik II A",
+    "parentUnitKerja": "E44310",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44320",
+    "namaUnitKerja": "Si Shift Lab Pabrik II B",
+    "parentUnitKerja": "E44300",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44321",
+    "namaUnitKerja": "Staf Shift Lab Pabrik II B",
+    "parentUnitKerja": "E44320",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44330",
+    "namaUnitKerja": "Staf Shift Laboratorium Pabrik II A",
+    "parentUnitKerja": "E44300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44340",
+    "namaUnitKerja": "Staf Shift Laboratorium Pabrik II B",
+    "parentUnitKerja": "E44300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44400",
+    "namaUnitKerja": "Bag Labotarorium Pabrik III",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E44401",
+    "namaUnitKerja": "Staf ND Lab Pabrik III",
+    "parentUnitKerja": "E44400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44402",
+    "namaUnitKerja": "Ru ND Laboratorium Pabrik III",
+    "parentUnitKerja": "E44400",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E44410",
+    "namaUnitKerja": "Si Shift Lab Pabrik III A",
+    "parentUnitKerja": "E44400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44411",
+    "namaUnitKerja": "Staf Shift Lab Pabrik III A",
+    "parentUnitKerja": "E44410",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44420",
+    "namaUnitKerja": "Si ND Lab Pabrik III B",
+    "parentUnitKerja": "E44400",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E44421",
+    "namaUnitKerja": "Staf Shift Lab Pabrik III B",
+    "parentUnitKerja": "E44420",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44430",
+    "namaUnitKerja": "Staf Shift Laboratorium Pabrik III A",
+    "parentUnitKerja": "E44400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44440",
+    "namaUnitKerja": "Staf Shift Laboratorium Pabrik III B",
+    "parentUnitKerja": "E44400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44500",
+    "namaUnitKerja": "Staf Evaluasi Proses Pabrik I",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44600",
+    "namaUnitKerja": "Staf Evaluasi Proses Pabrik II",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44700",
+    "namaUnitKerja": "Staf Evaluasi Proses Pabrik III",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E44800",
+    "namaUnitKerja": "Staf Dep Proses & Pengendalian Kualitas",
+    "parentUnitKerja": "E44000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E45000",
+    "namaUnitKerja": "Staf Komp. Teknologi",
+    "parentUnitKerja": "E40000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E50000",
+    "namaUnitKerja": "Komp Pengembangan",
+    "parentUnitKerja": "E00000",
+    "orgLevelName": "Kompartemen/SPI/Sesper"
+  },
+  {
+    "unitKerja": "E50100",
+    "namaUnitKerja": "Bag Pengawasan Investasi Rutin EPC",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E50110",
+    "namaUnitKerja": "Staf Pengawasan Investasi Rutin EPC",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E51000",
+    "namaUnitKerja": "Dep Pengembangan Korporat",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E51100",
+    "namaUnitKerja": "Staf Analisa & Perencanaan Usaha",
+    "parentUnitKerja": "E51000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E51200",
+    "namaUnitKerja": "Staf Perencanaan & Evaluasi Teknis",
+    "parentUnitKerja": "E51000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E51300",
+    "namaUnitKerja": "Staf Dep Pengembangan Korporat",
+    "parentUnitKerja": "E51000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E52000",
+    "namaUnitKerja": "Dep Riset",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E52100",
+    "namaUnitKerja": "Bag Administrasi Riset",
+    "parentUnitKerja": "E52000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E52110",
+    "namaUnitKerja": "Staf Administrasi Riset",
+    "parentUnitKerja": "E52100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E52200",
+    "namaUnitKerja": "Staf Peneliti",
+    "parentUnitKerja": "E52000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E52300",
+    "namaUnitKerja": "Staf Dep Riset",
+    "parentUnitKerja": "E52000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E53000",
+    "namaUnitKerja": "Dep Rancang Bangun",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": "Departemen/Biro/Bidang"
+  },
+  {
+    "unitKerja": "E53010",
+    "namaUnitKerja": "Si Adm Engineering & Dokumen Teknik Induk",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Seksi"
+  },
+  {
+    "unitKerja": "E53011",
+    "namaUnitKerja": "Ru Adm Engineering & Dokumen Teknik Induk",
+    "parentUnitKerja": "E53010",
+    "orgLevelName": "Regu"
+  },
+  {
+    "unitKerja": "E53100",
+    "namaUnitKerja": "Bag Proses",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E53110",
+    "namaUnitKerja": "Staf Eng/PGT/Estimator",
+    "parentUnitKerja": "E53100",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E53200",
+    "namaUnitKerja": "Bag Mesin",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E53210",
+    "namaUnitKerja": "Staf Eng/PGT/Estimator",
+    "parentUnitKerja": "E53200",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E53300",
+    "namaUnitKerja": "Bag Listrik & Instrumen",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E53310",
+    "namaUnitKerja": "Staf Eng/PGT/Estimator",
+    "parentUnitKerja": "E53300",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E53400",
+    "namaUnitKerja": "Bag Sipil",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Bagian"
+  },
+  {
+    "unitKerja": "E53410",
+    "namaUnitKerja": "Staf Eng/PGT/Estimator",
+    "parentUnitKerja": "E53400",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E53500",
+    "namaUnitKerja": "Staf Pengembangan Rancang Bangun",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E53600",
+    "namaUnitKerja": "Staf Dep Rancang Bangun",
+    "parentUnitKerja": "E53000",
+    "orgLevelName": "Staf/Kelompok"
+  },
+  {
+    "unitKerja": "E54000",
+    "namaUnitKerja": "Staf Komp. Pengembangan",
+    "parentUnitKerja": "E50000",
+    "orgLevelName": "Staf/Kelompok"
+  }
+]

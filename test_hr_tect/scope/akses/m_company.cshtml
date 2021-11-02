@@ -1,0 +1,481 @@
+﻿@page
+@namespace appglobal
+@using appglobal.models
+@model m_companyModel
+@{
+    string f = Request.Query["f"];
+    test_hr_tect_model _context = new test_hr_tect_model(AppGlobal.get_db_option()); //simplifying context initializer by override
+    var url = "http://localhost:40000" + AppGlobal.get_logo_FE();
+}
+
+@if (f == "base")
+{
+    @await Html.PartialAsync("../_template/crud_base_profil_dept.cshtml")
+}
+else if (f == "table")
+{
+    <div class="row" id="table_content">
+        <div class="col-md-12 grid-margin">
+            <div class="d-flex justify-content-between flex-wrap">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 grid-margin">
+
+                            <div class="card mt-3">
+                                <div class="card-body">
+                                    <h4 class="mb-4 card-title">Data Company</h4>
+                                    @{
+                                        WriteLiteral(crud_base_profil_dept.get_custom_button("Add", "", "btn btn-primary btn-fw", "btn_add()", "<i class='fa fa-plus'></i>"));
+                                    }
+
+                                    <div style="overflow-x:auto">
+                                        <table class='table table-xs table-condensed table-bordered table-striped' style="width:100%;" id="table_admin">
+                                            <thead>
+                                                <tr>
+                                                    <th style='width:10%;'>No</th>
+                                                    <th style='width:40%;'>Name</th>
+                                                    <th style='width:30%;'>Email</th>
+                                                    <th style='width:30%;'>Website</th>
+                                                    <th style='width:30%;'>Logo</th>
+                                                    <th style='width:30%;'>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="div_alert" style="display:none">
+    </div>
+
+    <script>
+        $("#table_content").append(token);
+
+        var table_admin = $('#table_admin').DataTable({
+            "bLengthChange": false,
+            "paging": true,
+            "autoWidth": true,
+            columns: [
+                {
+                    "data": "m_company_id", "width": "10%", "className": "aksi", "render": function (data, type, row, meta) {
+                        no = meta.row + meta.settings._iDisplayStart + 1;
+                        return no;
+                    }
+                },
+                {
+                    "data": "m_company_name", "width": "20%", "render": function (data, type, row, meta) {
+                        return data;
+                    }
+                },
+                {
+                    "data": "m_company_email", "width": "20%", "render": function (data, type, row, meta) {
+                        return data;
+                    }
+                },
+                {
+                    "data": "m_company_website", "width": "20%", "render": function (data, type, row, meta) {
+                        return `<a href="` + data +`" target="_blank">`+data+`</a>`;
+                    }
+                },
+                {
+                    "data": "m_company_logo", "width": "20%", "render": function (data, type, row, meta) {
+
+                        return '<img style="width: 200px;height: auto;border-radius: 0%;" src="@url'+data+'">';
+                    }
+                },
+                {
+                    "data": "", "width": "30%", "className": "aksi", "render": function (data, type, row, meta) {
+                        var data_edit = "<button type='button' class='btn btn-warning btn-sm mt-2 mr-1' onclick='btn_edit(" + row.m_company_id + ")'> <i class='fa fa-edit'></i> Edit</button>";
+                        var data_hapus = "<button type='button' class='btn btn-danger btn-sm mt-2 mr-1' onclick='btn_hapus(" + row.m_company_id + ")'>  <i class='fa fa-trash'></i> Delete</button>";
+                        return data_edit + data_hapus;
+                    }
+                },
+            ],
+            processing: true,
+            serverSide: true,
+            filter: true,
+            orderMulti: false,
+            ajax: function (data, callback, settings) {
+                var index = data.order[0].column;
+                var data_new = {};
+                data_new.__RequestVerificationToken = antiforgerytoken();
+                data_new.start = data.start;
+                data_new.length = data.length;
+                data_new.search = data.search["value"];
+                data_new.order_by = data.order[0].dir;
+                data_new.order_name = data.columns[index].data;
+                var url_path = "";
+
+                $.ajax({
+                    url: path + "?f=get_table_admin",
+                    type: 'post',
+                    dataType: 'json',
+                    data: data_new,
+                })
+                    .done(function (result) {
+                        if (result.status == true) {
+                            var all_item = result.data[0];
+                            var total_row = all_item.totalRow;
+                            var totalFilter = all_item.totalFilter;
+                            var item_lenght = all_item.data.length;
+
+                            callback({
+                                draw: data.draw,
+                                data: all_item.data,
+                                recordsTotal: total_row,
+                                recordsFiltered: totalFilter,
+                            });
+                        }
+                        else {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Request Failed',
+                                text: 'Sorry, proses loading data gagal \nMessage: ' + result.message,
+                            })
+                        }
+                    }).fail(function (xhr, status, error) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Request Failed',
+                            text: 'Sorry, proses loading data gagal \nMessage: ' + result.message,
+                        })
+                    })
+            },
+        });
+    </script>
+
+    <script>
+        function btn_edit(id) {
+            $("#div_alert").load(path + "?f=view_edit&id=" + id, function (response, status, xhr) {
+                if (status == "success") {
+                    show_popup()
+                }
+                else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Request Failed',
+                        text: msg + xhr.status + " " + xhr.statusText,
+                    })
+                }
+            });
+        }
+
+
+        function show_popup() {
+            var formTemplate = $('#insert_area_content').clone()[0];
+
+            (async () => {
+                Swal.fire({
+                    title: 'Edit Company',
+                    html: formTemplate,
+                    showCancelButton: true,
+                    focusConfirm: false,
+                    confirmButtonText:
+                        '<i class="fa fa-save"></i> Save',
+                    cancelButtonText:
+                        '<i class="fa fa-remove"></i> Close',
+                    cancelButtonAriaLabel: 'Thumbs down',
+                    preConfirm: () => {
+                        const m_company_id = Swal.getPopup().querySelector('#m_company_id').value
+                        const m_company_name = Swal.getPopup().querySelector('#m_company_name').value
+                        const m_company_email = Swal.getPopup().querySelector('#m_company_email').value
+                        const m_company_website = Swal.getPopup().querySelector('#m_company_website').value
+                        const m_company_logo = Swal.getPopup().querySelector('#m_company_logo').files[0]
+                        var invalid = 0
+
+                        if (!m_company_name) {
+                            Swal.showValidationMessage(`Please enter name`)
+                            invalid++
+                        }
+                        else if (!m_company_website) {
+                            Swal.showValidationMessage(`Please enter website`)
+                            invalid++
+                        }
+                        else if (!m_company_email) {
+                            Swal.showValidationMessage(`Please enter email`)
+                            invalid++
+                        }
+                        else if (m_company_website) {
+                            status_website = isUrlValid(m_company_website);
+                            if (!status_website) {
+                                Swal.showValidationMessage(`Wrong website`)
+                                invalid++
+                            }
+                        }
+
+                        if (invalid == 0) {
+                            var form = $('#insert_area_uraian_pekerjaan').get(0);
+                            var form_data = new FormData(form);
+                            form_data.append("m_company_id", m_company_id);
+                            form_data.append("m_company_name", m_company_name);
+                            form_data.append("m_company_website", m_company_website);
+                            form_data.append("m_company_email", m_company_email);
+                            form_data.append("m_company_logo", m_company_logo);
+                            form_data.append("__RequestVerificationToken", antiforgerytoken());
+
+                            $.ajax({
+                                url: path + '?f=edit_handler',
+                                type: 'post',
+                                dataType: 'json',
+                                data: form_data,
+                                contentType: false,
+                                processData: false
+                            }).done(function (result) {
+                                if (result.status === false) {
+                                    reload_table();
+                                    Swal.fire({
+                                        icon: 'error',
+                                        title: 'Request Failed',
+                                        text: result.message,
+                                    })
+
+                                }
+                                else {
+                                    reload_table();
+                                    Swal.fire({
+                                        icon: 'success',
+                                        title: 'Request Sucsess',
+                                        text: result.message,
+                                    })
+
+                                }
+                            }).fail(function (xhr, status, error) {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Request Failed',
+                                    text: 'Sorry, save failed \nMessage: ' + result.message,
+                                })
+                            }).always(function () {
+                            });
+
+                        }
+                    }
+                })
+            })()
+        }
+
+        function send_edit_data() {
+            invalid = validate_form("insert_area"); //trigger form validation
+
+            if (invalid == 0) {
+                var form = $('#insert_area').get(0);
+                var form_data = new FormData(form);
+
+                $.ajax({
+                    url: path + '?f=insert_handler',
+                    type: 'post',
+                    dataType: 'json',
+                    data: form_data,
+                    contentType: false,
+                    processData: false
+                }).done(function (result) {
+                    if (result.status === false) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Request Failed',
+                            text: result.message,
+                        })
+                    }
+                    else {
+                        reload_table();
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Request Sucsess',
+                            text: result.message,
+                        })
+                    }
+                }).fail(function (xhr, status, error) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Request Failed',
+                        text: 'Sorry, save failed \nMessage: ' + result.message,
+                    })
+                }).always(function () {
+                });
+            }
+        }
+
+        function btn_add() {
+            $("#form_area_content").load(path + "?f=view_add", function (response, status, xhr) {
+                if (status == "success") {
+                    $("#insert_area").append(token);
+                }
+                else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Request Failed',
+                        text: msg + xhr.status + " " + xhr.statusText,
+                    })
+                }
+            });
+        }
+
+        function btn_hapus(id) {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    detele_kode_fungsi_ajax(id)
+                }
+            })
+        }
+
+        function detele_kode_fungsi_ajax(id) {
+            url = path + "?f=delete_handler&id=" + id;
+            ajax_json_request(url, null, delete_succeded, failed_delete);
+        }
+
+        function delete_succeded(result) {
+            Swal.fire('Request Sucsess', result.message, 'success')
+            reload_table()
+        }
+
+        function failed_delete(result) {
+            Swal.fire('Request Failed', result.message, 'success')
+            reload_table()
+        }
+    </script>
+}
+else if (f == "view_edit")
+{
+    var m_company_id = String.IsNullOrEmpty(Request.Query["id"]) ? 0 : Convert.ToInt32(Request.Query["id"]);
+    var company_data = _context.m_company.SingleOrDefault(e => e.m_company_id == m_company_id);
+
+    <form class="form form-horizontal" id="insert_area_content" style="width:400px">
+        @{
+            var input =
+                crud_base_profil_dept.get_input("m_company_id", "hidden", company_data.m_company_id.ToString()) +
+                crud_base_profil_dept.get_input_group("Name", "m_company_name", company_data.m_company_name, "text", true, false, "100") +
+                crud_base_profil_dept.get_input_group("Email", "m_company_email", company_data.m_company_email, "text", true, false, "100") +
+                crud_base_profil_dept.get_input_group("Website", "m_company_website", company_data.m_company_website, "url", true, false, "100") +
+                crud_base_profil_dept.get_input_group("Logo", "m_company_logo", "", "file", true, false, "100");
+            WriteLiteral(input);
+        }
+
+    </form>
+}
+else if (f == "view_add")
+{
+    <div class="row">
+        <div class="col-md-12 grid-margin">
+            <div class="d-flex justify-content-between flex-wrap">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-md-12 grid-margin">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Add Company</h4>
+                                    <form class="form form-horizontal" id="insert_area">
+                                        <div class="card mt-3">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        @{
+                                                            var input =
+                                                                crud_base_profil_dept.get_input_group("Name", "m_company_name", "", "text", true, false, "100") +
+                                                                crud_base_profil_dept.get_input_group("Email", "m_company_email", "", "email", true, false, "100") +
+                                                                crud_base_profil_dept.get_input_group("Website", "m_company_website", "", "url", true, false, "100") +
+                                                                crud_base_profil_dept.get_file_upload("Logo", "m_company_logo", true);
+
+                                                            WriteLiteral(input);
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-3">
+                                            @{
+                                                WriteLiteral(crud_base_profil_dept.get_custom_button("Save", "", "btn btn-success btn-fw", "send_add_data()", "<i class='fa fa-save'></i>"));
+                                                WriteLiteral(crud_base_profil_dept.get_custom_button("Back", "", "btn btn-primary btn-fw", "btn_back()", "<i class='fa fa-arrow-left'></i>"));
+                                            }
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function send_add_data() {
+            invalid = validate_form("insert_area"); //trigger form validation
+
+            if (invalid == 0) {
+                var form = $('#insert_area').get(0);
+                var form_data = new FormData(form);
+
+                $.ajax({
+                    url: path + '?f=insert_handler',
+                    type: 'post',
+                    dataType: 'json',
+                    data: form_data,
+                    contentType: false,
+                    processData: false
+                }).done(function (result) {
+                    if (result.status === false) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Request Failed',
+                            text: result.message,
+                        })
+                    }
+                    else {
+                        reload_table();
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Request Sucsess',
+                            text: result.message,
+                        })
+                    }
+                }).fail(function (xhr, status, error) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Request Failed',
+                        text: 'Sorry, save failed \nMessage: ' + result.message,
+                    })
+                }).always(function () {
+                });
+            }
+        }
+    </script>
+}
+
+<script>
+    function reload_table(m_profil_departemen_id, t_stake_holder_analysis_id) {
+        $("#form_area_content").load(path + "?f=table", function (response, status, xhr) {
+            if (status == "success") {
+            }
+            else {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Request Failed',
+                    text: msg + xhr.status + " " + xhr.statusText,
+                })
+            }
+        });
+    }
+
+    function btn_back() {
+        reload_table();
+    }
+</script>
+
+
+

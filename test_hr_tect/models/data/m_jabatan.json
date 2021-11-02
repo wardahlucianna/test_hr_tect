@@ -1,0 +1,368 @@
+[
+  {
+    "jabatan": "01",
+    "namaJabatan": "Direktur Utama",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "02",
+    "namaJabatan": "Direktur",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "03",
+    "namaJabatan": "Komisaris Utama",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "04",
+    "namaJabatan": "Komisaris",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "05",
+    "namaJabatan": "Sekretaris Dekom",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "06",
+    "namaJabatan": "Staf Sekretaris Dekom",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "07",
+    "namaJabatan": "Staf Dekom",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "08",
+    "namaJabatan": "Senior Executive Vice President",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "10",
+    "namaJabatan": "Kepala Kompartemen",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "10A",
+    "namaJabatan": "Kepala Satuan",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "10B",
+    "namaJabatan": "Sekretaris Perusahaan",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "10C",
+    "namaJabatan": "General Manager",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "10D",
+    "namaJabatan": "Senior Vice President",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "10E",
+    "namaJabatan": "Senior Project Manager",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "11",
+    "namaJabatan": "Staf Utama",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "11A",
+    "namaJabatan": "Staf Utama I",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "11B",
+    "namaJabatan": "Staf Utama II",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20",
+    "namaJabatan": "Kepala Biro",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20A",
+    "namaJabatan": "Kepala Departemen",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20B",
+    "namaJabatan": "Kepala Bidang",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20C",
+    "namaJabatan": "Kepala Kantor Perwakilan",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20D",
+    "namaJabatan": "Manager",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20E",
+    "namaJabatan": "Kepala TI PI PG",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20F",
+    "namaJabatan": "Vice President",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "20G",
+    "namaJabatan": "Project Manager",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "21",
+    "namaJabatan": "Staf Utama Muda",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "21A",
+    "namaJabatan": "Staf Madya I",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "21B",
+    "namaJabatan": "Staf Madya II",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "30",
+    "namaJabatan": "Kepala Bagian",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "30A",
+    "namaJabatan": "AVP",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "30X",
+    "namaJabatan": "Kepala Shift",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "31",
+    "namaJabatan": "Staf Madya",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "31A",
+    "namaJabatan": "Staf Muda I",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "31B",
+    "namaJabatan": "Staf Muda II",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "32",
+    "namaJabatan": "Wakil Kepala Bagian",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "32A",
+    "namaJabatan": "Junior AVP",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "40",
+    "namaJabatan": "Kepala Seksi",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "40A",
+    "namaJabatan": "Supervisor",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "41",
+    "namaJabatan": "Staf Muda",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "41A",
+    "namaJabatan": "Staf Pratama I",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "41B",
+    "namaJabatan": "Staf Pratama II",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "50",
+    "namaJabatan": "Kepala Regu",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "50A",
+    "namaJabatan": "Kepala Urusan",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "50B",
+    "namaJabatan": "Foreman",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "51",
+    "namaJabatan": "Staf Pemula",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "51A",
+    "namaJabatan": "Staf Pratama III",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "60",
+    "namaJabatan": "LAKMA",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "60A",
+    "namaJabatan": "OPMA",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "60B",
+    "namaJabatan": "Pl. Utama",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "61",
+    "namaJabatan": "LAKTU",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "61A",
+    "namaJabatan": "OPTU",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "61B",
+    "namaJabatan": "Pl. Madya",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "62",
+    "namaJabatan": "LAKDA",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "62A",
+    "namaJabatan": "OPDA",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "62B",
+    "namaJabatan": "Pl. Muda",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "63",
+    "namaJabatan": "LAKMUD",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "63A",
+    "namaJabatan": "OPMUD",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "63B",
+    "namaJabatan": "Pl. Pratama",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "99A",
+    "namaJabatan": "Tenaga Ahli",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "99B",
+    "namaJabatan": "Sekretaris",
+    "eselon": null,
+    "jobGrade": null
+  },
+  {
+    "jabatan": "99C",
+    "namaJabatan": "Pelaksana",
+    "eselon": null,
+    "jobGrade": null
+  }
+]

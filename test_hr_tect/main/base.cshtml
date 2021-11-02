@@ -1,0 +1,98 @@
+﻿@page
+@namespace appglobal
+@using appglobal.models
+@model baseModel
+@{
+    test_hr_tect_model _context = new test_hr_tect_model(AppGlobal.get_db_option()); //simplifying context initializer by override
+    string route_value = RouteData.Values["scope_feature"] == null ? "" : RouteData.Values["scope_feature"].ToString();
+    ViewData["route_value"] = route_value;
+    var m_employe_first_name = _context.m_employe.SingleOrDefault(e => e.m_employe_id == AppGlobal.get_user_login_id()).m_employe_first_name;
+    var m_employe_last_name = _context.m_employe.SingleOrDefault(e => e.m_employe_id == AppGlobal.get_user_login_id()).m_employe_last_name;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Simar V2</title>
+    <!-- plugins:css -->
+
+    @await Html.PartialAsync("page_header.cshtml")
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:../../partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+                <a class="navbar-brand"><img style="height:auto;" src="~/main/library/app-assets/img/logo.png" /></a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center">
+                <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="">
+                        @m_employe_first_name @m_employe_last_name
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" onclick="logout()">
+                            <i class=" mdi mdi-exit-to-app menu-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+                
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:../../partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+
+                <ul class="nav" id="main-menu-navigation">
+                    @{
+                        string menu = baseModel.create_menu_structure();
+                        WriteLiteral(menu);
+                    }
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div id="content_body">@Html.AntiForgeryToken()
+
+
+                    <div style="height:500px">
+                        <span>
+                            <br> <br>
+
+                            <h1>  Welcome!</h1>
+                        </span>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:../../partials/_footer.html -->
+                <footer class="footer">
+                    <div class="container-fluid clearfix">
+                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2020 <a href="#">Bootstrapdash</a>. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+
+    @await Html.PartialAsync("page_footer.cshtml")
+</body>
+
+</html>
