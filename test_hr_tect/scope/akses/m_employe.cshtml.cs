@@ -10,6 +10,8 @@ using System.IO;
 using System.Web;
 using ClosedXML.Excel;
 using Microsoft.AspNetCore.Http;
+using System.Net;
+using System.Net.Mail;
 
 namespace appglobal
 {
@@ -171,7 +173,7 @@ namespace appglobal
                                 {
                                     m_employe_first_name = m_employe_first_name,
                                     m_employe_last_name = m_employe_last_name,
-                                    m_employe_email= m_employe_email,
+                                    m_employe_email = m_employe_email,
                                     m_employe_phone = m_employe_phone,
                                     m_company_id = m_company_id,
                                     m_employe_password = loginModel.create_password_SHA256("password"),
@@ -179,6 +181,95 @@ namespace appglobal
 
                                 _context.m_employe.Add(data_m_employe); //insert m_feature yg diconstruct
                                 _context.SaveChanges(); //save changes to database
+
+                                #region email
+                                var m_company_data = _context.m_company.Where(e => e.m_company_id == m_company_id).SingleOrDefault();
+
+                                var fromAddress = new MailAddress("wardah.rose12345@gmail.com", "GR Tech");
+                                var toAddress = new MailAddress(m_company_data.m_company_email, m_company_data.m_company_name);
+                                const string fromPassword = "Wa21121988";
+                                const string subject = "Notification new employee";
+                                string body = @"<html xmlns='http://www.w3.org/1999/xhtml'>
+                                                        <head>
+                                                            <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+                                                            <title>Demystifying Email Design</title>
+                                                            <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+                                                            <body style='margin: 0; padding: 0;'>
+                                                                <table border='1' cellpadding='0' cellspacing='0' width='100%' style='border: #ffffff;background:#d0d2d5;padding-bottom:20px'>
+                                                                    <tr>
+                                                                        <td colspan='3' style='border: #ffffff;'>
+                                                                            <img style='height: auto;text-align: center;display: block;margin-left: auto;margin-right: auto;width: 50%;padding-top:10px' src='freepikpsd.com/file/2019/10/your-logo-png-7-Transparent-Images.png'>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td width='20%' style='border: #ffffff;'></td>
+                                                                        <td width='60%' style='border: #ffffff;'>
+                                                                            <h3 style='text-align:center'>Information New Employee</h3>
+                                                                            <table border='1' cellpadding='0' cellspacing='0' width='100%' style='border: #ffffff;'>
+                                                                                <tr>
+                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                        First Name
+                                                                                    </td>
+                                                                                    <td width='3%' style='border: #ffffff;'>
+                                                                                        :
+                                                                                    </td>
+                                                                                    <td style='border: #ffffff;'>" + m_employe_first_name + @"</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                        Last Name
+                                                                                    </td>
+                                                                                    <td width='5%' style='border: #ffffff;'>
+                                                                                        :
+                                                                                    </td>
+                                                                                    <td style='border: #ffffff;'>" + m_employe_last_name + @"</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                        Email
+                                                                                    </td>
+                                                                                    <td width='5%' style='border: #ffffff;'>
+                                                                                        :
+                                                                                    </td>
+                                                                                    <td style='border: #ffffff;'>" + m_employe_email + @"</td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                        Phone
+                                                                                    </td>
+                                                                                    <td width='5%' style='border: #ffffff;'>
+                                                                                        :
+                                                                                    </td>
+                                                                                    <td style='border: #ffffff;'>" + m_employe_phone + @"</td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        <td width='20%' style='border: #ffffff;'></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </body>
+                                                        </head>
+                                                        </html>";
+
+                                var smtp = new SmtpClient
+                                {
+                                    Host = "smtp.gmail.com",
+                                    Port = 587,
+                                    EnableSsl = true,
+                                    DeliveryMethod = SmtpDeliveryMethod.Network,
+                                    UseDefaultCredentials = false,
+                                    Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
+                                };
+                                using (var message = new MailMessage(fromAddress, toAddress)
+                                {
+                                    Subject = subject,
+                                    Body = body,
+                                    IsBodyHtml = true,
+                                })
+                                {
+                                    smtp.Send(message);
+                                }
+                                #endregion
 
                                 arm.success(); //set success status
                                 arm.message = "Data Has Been Saved"; //set success message
@@ -202,6 +293,8 @@ namespace appglobal
                             }
                             else
                             {
+
+
                                 m_employe_data.m_company_id = m_company_id;
                                 m_employe_data.m_employe_first_name = m_employe_first_name;
                                 m_employe_data.m_employe_last_name = m_employe_last_name;
