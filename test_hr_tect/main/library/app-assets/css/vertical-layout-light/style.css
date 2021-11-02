@@ -28836,7 +28836,7 @@ div.tagsinput span.tag a {
   }
   .sidebar-offcanvas.active {
     right: 0;
-    /* display: contents; */
+    display: flex !important;
   }
 }
 
