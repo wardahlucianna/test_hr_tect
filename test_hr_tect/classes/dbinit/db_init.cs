@@ -48,7 +48,7 @@ namespace appglobal
                 #region m_company
                 List<m_company> list_m_company = new List<m_company>
                 {
-                    new m_company{m_company_name="Admin Company", m_company_logo="-", m_company_website = "http://www.google.com/",m_company_email="www.admin_company@admin.com"},
+                    new m_company{m_company_name="Admin Company", m_company_logo="-", m_company_website = "http://www.google.com/",m_company_email="wardah.rose1234@gmail.com"},
                 };
                 _context.m_company.AddRange(list_m_company);
                 _context.SaveChanges();
@@ -59,7 +59,7 @@ namespace appglobal
                 var m_company_id = list_m_company.SingleOrDefault(e => e.m_company_name == "Admin Company").m_company_id;
                 List<m_employe> list_m_employe = new List<m_employe>
                 {
-                    new m_employe{m_employe_first_name="Admin", m_employe_last_name="Admin", m_employe_phone = "081228180812",m_employe_email = "www.admin@admin.com",m_company_id=1,m_employe_password="5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"},
+                    new m_employe{m_employe_first_name="Admin", m_employe_last_name="Admin", m_employe_phone = "081228180812",m_employe_email = "wardah.rose123@gmail.com",m_company_id=1,m_employe_password="5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"},
 
                 };
                 _context.m_employe.AddRange(list_m_employe);

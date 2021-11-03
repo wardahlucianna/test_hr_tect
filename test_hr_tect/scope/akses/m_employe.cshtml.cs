@@ -198,16 +198,16 @@ namespace appglobal
                                                                 <table border='1' cellpadding='0' cellspacing='0' width='100%' style='border: #ffffff;background:#d0d2d5;padding-bottom:20px'>
                                                                     <tr>
                                                                         <td colspan='3' style='border: #ffffff;'>
-                                                                            <img style='height: auto;text-align: center;display: block;margin-left: auto;margin-right: auto;width: 50%;padding-top:10px' src='freepikpsd.com/file/2019/10/your-logo-png-7-Transparent-Images.png'>
+                                                                            <img style='height: auto;text-align: center;display: block;margin-left: auto;margin-right: auto;width: 50%;padding-top:10px' src='freepikpsd.com/file/2019/10/your-logo-png-7-Transparent-Images.png'> <br>
+                                                                            <h3 style='text-align:center'>Information New Employee</h3>
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td width='20%' style='border: #ffffff;'></td>
                                                                         <td width='60%' style='border: #ffffff;'>
-                                                                            <h3 style='text-align:center'>Information New Employee</h3>
                                                                             <table border='1' cellpadding='0' cellspacing='0' width='100%' style='border: #ffffff;'>
                                                                                 <tr>
-                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                    <td width='200px' style='border: #ffffff;'>
                                                                                         First Name
                                                                                     </td>
                                                                                     <td width='3%' style='border: #ffffff;'>
@@ -216,7 +216,7 @@ namespace appglobal
                                                                                     <td style='border: #ffffff;'>" + m_employe_first_name + @"</td>
                                                                                 </tr>
                                                                                 <tr>
-                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                    <td width='200px' style='border: #ffffff;'>
                                                                                         Last Name
                                                                                     </td>
                                                                                     <td width='5%' style='border: #ffffff;'>
@@ -225,7 +225,7 @@ namespace appglobal
                                                                                     <td style='border: #ffffff;'>" + m_employe_last_name + @"</td>
                                                                                 </tr>
                                                                                 <tr>
-                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                    <td width='200px' style='border: #ffffff;'>
                                                                                         Email
                                                                                     </td>
                                                                                     <td width='5%' style='border: #ffffff;'>
@@ -234,7 +234,7 @@ namespace appglobal
                                                                                     <td style='border: #ffffff;'>" + m_employe_email + @"</td>
                                                                                 </tr>
                                                                                 <tr>
-                                                                                    <td width='20%' style='border: #ffffff;'>
+                                                                                    <td width='200px' style='border: #ffffff;'>
                                                                                         Phone
                                                                                     </td>
                                                                                     <td width='5%' style='border: #ffffff;'>
